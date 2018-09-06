@@ -1,0 +1,11 @@
+@import "../layouts/variables.css";
+
+
+@value imageHeight: 500px;
+
+.header {
+  background-color: grey;
+  width:100%;
+  height: 120px;
+  padding: padding;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.236",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-favicon": "2.1.1",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-sharp": "1.6.41",
+    "gatsby-source-filesystem": "1.5.27",
+    "gatsby-transformer-remark": "1.7.37",
+    "gatsby-transformer-sharp": "1.6.22",
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^3.3.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,11 @@
+/* colors */
+@value active: #f00;
+@value grey: #888;
+
+/*sizes*/
+@value maxContentWidth: 1200px;
+@value padding: 20px;
+
+/* breakpoints*/
+@value break-mobile: 420px;
+@value break-tablet: 768px;

@@ -1,0 +1,15 @@
+@import "variables.css";
+
+
+:global * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* base font styles */
+:global body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}

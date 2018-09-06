@@ -1,0 +1,17 @@
+@import "../layouts/variables.css";
+
+.navMain{
+  float: right;
+}
+@media (max-width: break-tablet){
+  .navMain{
+    display: none;
+  }
+}
+
+.navOpened {
+}
+
+.navClosed {
+
+}

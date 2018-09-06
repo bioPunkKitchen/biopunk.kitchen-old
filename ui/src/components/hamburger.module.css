@@ -1,0 +1,104 @@
+@import '../layouts/variables.css';
+
+.hamburgerWrapper{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.overlay{
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: padding;
+}
+
+.overlayOpened{
+  composes: overlay;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.overlayClosed{
+  composes: overlay;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: width 0s ease-out 0.5s, height 0s ease-out 0.5s, opacity 0.5s ease-out;
+}
+
+.hamburger {
+  position: relative;
+  height: 34px;
+  width: 46px;
+}
+@media (min-width: break-tablet){
+  .hamburger{
+    display: none;
+  }
+}
+
+.hamburgerOpen {
+  composes: hamburger;
+}
+
+.hamburgerClose {
+  composes: hamburger;
+}
+
+.hamburgerLine {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 46px;
+  background-color: white;
+  transition: all 0.5s ease-out;
+}
+
+.hamburgerLineOpen {
+  composes: hamburgerLine;
+}
+
+.hamburgerLineClose {
+  composes: hamburgerLine;
+  background-color: dark-blue;
+}
+
+.hamburgerLineOpen:nth-child(2) {
+  top: 0;
+  transform: rotate(0deg);
+  transition: top 0.5s ease-out 0.5s, transform 0.5s ease-out;
+}
+
+.hamburgerLineOpen:nth-child(3) {
+  top: 100%;
+  transform: rotate(0deg);
+  transition: top 0.5s ease-out 0.5s, transform 0.5s ease-out;
+}
+
+.hamburgerLineClose:first-child {
+  transform: rotate(43deg);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.5s;
+}
+
+.hamburgerLineClose:last-child {
+  transform: rotate(-43deg);
+  transition: all 0.5s ease-out;
+  transition-delay: 0.5s;
+}
+
+.hamburgerLineClose:nth-child(2) {
+  top: 50%;
+  transform: rotate(43deg);
+  transition: top 0.5s ease-out, transform 0.5s ease-out 0.5s;
+}
+
+.hamburgerLineClose:nth-child(3) {
+  top: 50%;
+  transform: rotate(-43deg);
+  transition: top 0.5s ease-out, transform 0.5s ease-out 0.5s;
+}

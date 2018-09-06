@@ -1,0 +1,5 @@
+@import "../layouts/variables.css";
+
+.main {
+  max-width: maxContentWidth;
+}

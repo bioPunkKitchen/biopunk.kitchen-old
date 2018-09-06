@@ -1,0 +1,8 @@
+@import '../layouts/variables.css';
+
+
+.footer {
+  background-color: grey;
+  width: 100%;
+  height: 120px;
+}
