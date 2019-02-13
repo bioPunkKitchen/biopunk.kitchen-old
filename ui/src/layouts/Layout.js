@@ -5,14 +5,6 @@ import Footer from '../components/Footer';
 import './global.css';
 import styles from './layout.module.css';
 
-/*
-const helmet = () => (
-    <helmet>
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
-    </helmet>
-);
-*/
 
 export default ({ children }) => {
 
