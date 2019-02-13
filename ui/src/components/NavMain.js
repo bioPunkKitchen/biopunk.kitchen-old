@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styles from './navMain.module.css';
 
 const NavMain = (props) => {
