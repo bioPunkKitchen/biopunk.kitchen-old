@@ -831,16 +831,8 @@
             "version": "^2.0.0"
           },
           {
-            "name": "gatsby-link",
-            "version": "^1.6.39"
-          },
-          {
             "name": "gatsby-plugin-favicon",
             "version": "2.1.1"
-          },
-          {
-            "name": "gatsby-plugin-layout",
-            "version": "^1.0.12"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1012,12 +1004,12 @@
       "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T14:23:57.456Z",
+      "buildTime": "2019-02-13T16:07:39.296Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3af2ccb19de27424ff494ccd9d807b95",
+        "contentDigest": "c0d9703da0269fd8244a2b97249eb26b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1027,7 +1019,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9d8a4a6b0af3e7b9efc6515945ee2e83",
+        "contentDigest": "f5c4ec365b6a61e43f6530b2d8c39904",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1038,7 +1030,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2018-09-06T19:08:01.860Z",
-      "accessTime": "2019-02-12T15:16:33.389Z",
+      "accessTime": "2019-02-13T15:16:40.802Z",
       "changeTime": "2018-09-06T20:59:02.839Z",
       "birthTime": "2018-09-06T20:59:02.839Z",
       "root": "/",
@@ -1056,11 +1048,11 @@
       "blksize": 4096,
       "ino": 10640923,
       "blocks": 8,
-      "atimeMs": 1549984593389.3723,
+      "atimeMs": 1550071000802.4678,
       "mtimeMs": 1536260881859.623,
       "ctimeMs": 1536267542838.6016,
       "birthtimeMs": 1536267542838.6016,
-      "atime": "2019-02-12T15:16:33.389Z",
+      "atime": "2019-02-13T15:16:40.802Z",
       "mtime": "2018-09-06T19:08:01.860Z",
       "ctime": "2018-09-06T20:59:02.839Z",
       "birthtime": "2018-09-06T20:59:02.839Z"
@@ -1291,7 +1283,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "bc81e810452031be0eeacd8992773186"
+    "PLUGINS_HASH": "0224bef2ccc26aa5ce3bd31177ecb78d"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1304,6 +1296,7 @@
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null
       ]
     }
