@@ -6,7 +6,6 @@ const NavMain = ( props ) => {
 
     const toggle = props.closeOverlay || undefined;
     const style = props.style === undefined ? styles.navMain : props.style;
-    console.log( props );
 
     return (
         <nav className={style}>
