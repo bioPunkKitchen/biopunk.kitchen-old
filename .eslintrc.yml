@@ -5,7 +5,7 @@ env:
   node: true
 globals:
     graphql: true
-extends: 
+extends:
   - 'eslint:recommended'
   - idiomatic
 parserOptions:
@@ -18,22 +18,22 @@ plugins:
 rules:
   indent:
     - error
-    - 2
+    - 4
   linebreak-style:
     - error
     - unix
   semi:
     - error
     - always
-  one-var: 
+  one-var:
     - error
     - never
-  react/jsx-uses-react: 
+  react/jsx-uses-react:
     - error
-  react/jsx-uses-vars: 
+  react/jsx-uses-vars:
     - error
-  no-console: 
+  no-console:
     - warn
-    - allow: 
-        - warn 
+    - allow:
+        - warn
         - error
