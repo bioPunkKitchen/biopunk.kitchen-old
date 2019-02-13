@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 
 import styles from './blog.module.css';
@@ -8,22 +9,45 @@ export default ({ data }) => {
     return (
         <Layout>
             <div>
-                <h1>{data.markdownRemark.frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+                <h1>{data.thisPage.frontmatter.title}</h1>
+                {
+                    data.posts.edges.map(( post, index ) => {
+                        return (
+                            <Link to={post.node.fields.slug}>
+                                <article key={index}>
+                                    <h1>{post.node.frontmatter.title}</h1>
+                                    <p>{post.node.frontmatter.excerpt}</p>
+                                </article>
+                            </Link>
+                        );
+                    })
+                }
             </div>
         </Layout>
     );
 
 };
 
-export const singleQuery = graphql`
-  query singleQuery ($path: String!) {
-    markdownRemark(fields: { slug: { eq: $path } }) {
-      html
+
+export const blogQuery = graphql`
+  query ($path: String!) {
+    thisPage: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title
       }
-      html
     }
-   }
+    posts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/blog\//"}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            excerpt
+          }
+        }
+      }
+    }
+  }
 `;

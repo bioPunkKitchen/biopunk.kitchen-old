@@ -1,0 +1,9 @@
+@value variables: "../layouts/variables.css";
+
+.post {
+  margin: 0 auto;
+}
+
+.post img {
+  width: 50%;
+}
