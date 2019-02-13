@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 
 const Footer = () => (
     <div className={styles.footer}>
-      Footer
+        <Link to={'/legal'} >Legal</Link>
     </div>
 );
 
