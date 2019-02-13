@@ -1004,12 +1004,12 @@
       "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T16:07:39.296Z",
+      "buildTime": "2019-02-13T19:03:24.897Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c0d9703da0269fd8244a2b97249eb26b",
+        "contentDigest": "27416ac1a8d4b01fe4495983a4860fc5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1019,7 +1019,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f5c4ec365b6a61e43f6530b2d8c39904",
+        "contentDigest": "30f447683cee5256d8974587cd4c5897",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1029,10 +1029,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2018-09-06T19:08:01.860Z",
-      "accessTime": "2019-02-13T15:16:40.802Z",
-      "changeTime": "2018-09-06T20:59:02.839Z",
-      "birthTime": "2018-09-06T20:59:02.839Z",
+      "modifiedTime": "2019-02-13T18:25:37.625Z",
+      "accessTime": "2019-02-13T18:25:37.669Z",
+      "changeTime": "2019-02-13T18:25:37.625Z",
+      "birthTime": "2019-02-13T18:25:37.625Z",
       "root": "/",
       "dir": "/home/jenn/coding/jenns-gatsby-starter/ui/..",
       "base": "content",
@@ -1041,21 +1041,21 @@
       "relativeDirectory": "..",
       "dev": 66306,
       "mode": 16893,
-      "nlink": 2,
+      "nlink": 3,
       "uid": 1000,
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
       "ino": 10640923,
       "blocks": 8,
-      "atimeMs": 1550071000802.4678,
-      "mtimeMs": 1536260881859.623,
-      "ctimeMs": 1536267542838.6016,
-      "birthtimeMs": 1536267542838.6016,
-      "atime": "2019-02-13T15:16:40.802Z",
-      "mtime": "2018-09-06T19:08:01.860Z",
-      "ctime": "2018-09-06T20:59:02.839Z",
-      "birthtime": "2018-09-06T20:59:02.839Z"
+      "atimeMs": 1550082337669.1978,
+      "mtimeMs": 1550082337625.1946,
+      "ctimeMs": 1550082337625.1946,
+      "birthtimeMs": 1550082337625.1946,
+      "atime": "2019-02-13T18:25:37.669Z",
+      "mtime": "2019-02-13T18:25:37.625Z",
+      "ctime": "2019-02-13T18:25:37.625Z",
+      "birthtime": "2019-02-13T18:25:37.625Z"
     },
     "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file": {
       "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file",
@@ -1075,10 +1075,10 @@
       "extension": "md",
       "size": 49,
       "prettySize": "49 B",
-      "modifiedTime": "2018-09-06T19:56:20.416Z",
-      "accessTime": "2019-02-12T17:05:52.888Z",
-      "changeTime": "2018-09-06T20:59:02.839Z",
-      "birthTime": "2018-09-06T20:59:02.839Z",
+      "modifiedTime": "2019-02-13T18:48:47.989Z",
+      "accessTime": "2019-02-13T18:29:08.590Z",
+      "changeTime": "2019-02-13T18:48:47.989Z",
+      "birthTime": "2019-02-13T18:48:47.989Z",
       "root": "/",
       "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
       "base": "blog.md",
@@ -1094,14 +1094,14 @@
       "blksize": 4096,
       "ino": 10640925,
       "blocks": 8,
-      "atimeMs": 1549991152887.5698,
-      "mtimeMs": 1536263780415.553,
-      "ctimeMs": 1536267542838.6016,
-      "birthtimeMs": 1536267542838.6016,
-      "atime": "2019-02-12T17:05:52.888Z",
-      "mtime": "2018-09-06T19:56:20.416Z",
-      "ctime": "2018-09-06T20:59:02.839Z",
-      "birthtime": "2018-09-06T20:59:02.839Z"
+      "atimeMs": 1550082548589.5364,
+      "mtimeMs": 1550083727988.594,
+      "ctimeMs": 1550083727988.594,
+      "birthtimeMs": 1550083727988.594,
+      "atime": "2019-02-13T18:29:08.590Z",
+      "mtime": "2019-02-13T18:48:47.989Z",
+      "ctime": "2019-02-13T18:48:47.989Z",
+      "birthtime": "2019-02-13T18:48:47.989Z"
     },
     "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file": {
       "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
@@ -1149,6 +1149,165 @@
       "ctime": "2018-09-06T20:59:02.839Z",
       "birthtime": "2018-09-06T20:59:02.839Z"
     },
+    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: homepage\n---\n\nhomepage text\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2f94de7c273be6496e5bd8587ec50093",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "homepage",
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
+      "fields": {
+        "slug": "/"
+      }
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5907e605469f3ed68269d57a44638fcd",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog",
+      "relativePath": "blog",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-13T18:27:12.659Z",
+      "accessTime": "2019-02-13T18:27:12.663Z",
+      "changeTime": "2019-02-13T18:27:12.659Z",
+      "birthTime": "2019-02-13T18:27:12.659Z",
+      "root": "/",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10643613,
+      "blocks": 8,
+      "atimeMs": 1550082432663.316,
+      "mtimeMs": 1550082432659.3157,
+      "ctimeMs": 1550082432659.3157,
+      "birthtimeMs": 1550082432659.3157,
+      "atime": "2019-02-13T18:27:12.663Z",
+      "mtime": "2019-02-13T18:27:12.659Z",
+      "ctime": "2019-02-13T18:27:12.659Z",
+      "birthtime": "2019-02-13T18:27:12.659Z"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file",
+      "children": [
+        "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2e76ead97ca19935657bf4600c6f7bd",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md",
+      "relativePath": "blog/post1.md",
+      "extension": "md",
+      "size": 98,
+      "prettySize": "98 B",
+      "modifiedTime": "2019-02-13T18:56:39.595Z",
+      "accessTime": "2019-02-13T18:28:52.349Z",
+      "changeTime": "2019-02-13T18:56:39.595Z",
+      "birthTime": "2019-02-13T18:56:39.595Z",
+      "root": "/",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content/blog",
+      "base": "post1.md",
+      "ext": ".md",
+      "name": "post1",
+      "relativeDirectory": "blog",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10643614,
+      "blocks": 8,
+      "atimeMs": 1550082532348.7375,
+      "mtimeMs": 1550084199595.293,
+      "ctimeMs": 1550084199595.293,
+      "birthtimeMs": 1550084199595.293,
+      "atime": "2019-02-13T18:28:52.349Z",
+      "mtime": "2019-02-13T18:56:39.595Z",
+      "ctime": "2019-02-13T18:56:39.595Z",
+      "birthtime": "2019-02-13T18:56:39.595Z"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file",
+      "children": [
+        "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bca170c4a55e4867f3f8bfe430a2f2fc",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md",
+      "relativePath": "blog/post2.md",
+      "extension": "md",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-13T18:56:45.228Z",
+      "accessTime": "2019-02-13T18:28:59.017Z",
+      "changeTime": "2019-02-13T18:56:45.228Z",
+      "birthTime": "2019-02-13T18:56:45.228Z",
+      "root": "/",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content/blog",
+      "base": "post2.md",
+      "ext": ".md",
+      "name": "post2",
+      "relativeDirectory": "blog",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10643596,
+      "blocks": 8,
+      "atimeMs": 1550082539017.068,
+      "mtimeMs": 1550084205227.7793,
+      "ctimeMs": 1550084205227.7793,
+      "birthtimeMs": 1550084205227.7793,
+      "atime": "2019-02-13T18:28:59.017Z",
+      "mtime": "2019-02-13T18:56:45.228Z",
+      "ctime": "2019-02-13T18:56:45.228Z",
+      "birthtime": "2019-02-13T18:56:45.228Z"
+    },
     "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": {
       "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1174,28 +1333,78 @@
         "slug": "/blog"
       }
     },
-    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file",
       "internal": {
-        "content": "---\ntitle: homepage\n---\n\nhomepage text\n",
+        "content": "---\ntemplateKey: post\ntitle: post 1\nimage: /media/hex.jpg\nexcerpt: hello world\n---\n\nlorem ipsum 1\n",
         "type": "MarkdownRemark",
-        "contentDigest": "2f94de7c273be6496e5bd8587ec50093",
+        "contentDigest": "cd5df14c28bacc0d0e15d91e0db382c6",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "homepage",
-        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
-        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file"
+        "title": "post 1",
+        "templateKey": "post",
+        "image": "/media/hex.jpg",
+        "excerpt": "hello world",
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md",
       "fields": {
-        "slug": "/"
+        "slug": "/blog/post1"
+      }
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file",
+      "internal": {
+        "content": "---\ntemplateKey: post\ntitle: post 2\nimage: /media/candy.jpg\nexcerpt: foo bar\n---\n\nlorem ipsum 2\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "066ce4cb00fac655cb9c58ac063dc424",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "post 2",
+        "templateKey": "post",
+        "image": "/media/candy.jpg",
+        "excerpt": "foo bar",
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md",
+      "fields": {
+        "slug": "/blog/post2"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "pluginCreatorId": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "797847972ca37c9e9c6356d43b75688f",
+        "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /blog": {
@@ -1220,23 +1429,47 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
-      "pluginCreatorId": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
-      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
-      "id": "SitePage /",
+    "SitePage /blog/post1": {
+      "jsonName": "blog-post-1-0d3",
+      "internalComponentName": "ComponentBlogPost1",
+      "path": "/blog/post1",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/blog/post1"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js",
+      "id": "SitePage /blog/post1",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "797847972ca37c9e9c6356d43b75688f",
-        "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+        "contentDigest": "e4e622f07705e53e29dbdeafa81f5057",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/post2": {
+      "jsonName": "blog-post-2-954",
+      "internalComponentName": "ComponentBlogPost2",
+      "path": "/blog/post2",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "/blog/post2"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js",
+      "id": "SitePage /blog/post2",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b0c4f42bebe5f49b3ace62579fc33387",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
     },
@@ -1260,26 +1493,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ed52f5fdbf7235858fa9d7e35896f05c",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /legal/": {
       "jsonName": "legal-9f3",
       "internalComponentName": "ComponentLegal",
@@ -1299,6 +1512,26 @@
         "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ed52f5fdbf7235858fa9d7e35896f05c",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -1312,12 +1545,22 @@
       ],
       "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": [
         "/blog"
+      ],
+      "/home/jenn/coding/jenns-gatsby-starter/content/blog/post.md absPath of file >>> MarkdownRemark": [
+        "/blog/post"
+      ],
+      "/home/jenn/coding/jenns-gatsby-starter/content/blog/post1.md absPath of file >>> MarkdownRemark": [
+        "/blog/post1"
+      ],
+      "/home/jenn/coding/jenns-gatsby-starter/content/blog/post2.md absPath of file >>> MarkdownRemark": [
+        "/blog/post2"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
-        null
+        null,
+        "/blog"
       ]
     }
   },
@@ -1325,15 +1568,14 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "22/path---index-6a9-r08w3TWEgbO4GFpIOVmTCVhWXQ",
-    "blog-c06": "822/path---blog-c-06-a65-Tb4B8RymVv5x2RttSCd9g7hEm4Q",
+    "blog-c06": "882/path---blog-c-06-a65-4MvZfA68r0Gp7v0FaHYV6SXBc",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "legal-9f3": "623/path---legal-9-f-3-f8b-NZuapzHg3X9TaN1iIixfv1W23E"
+    "legal-9f3": "623/path---legal-9-f-3-f8b-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-post-77a": "961/path---blog-post-77-a-23d-NO1qtW76N8VLWBu2vgDLm1k38aE",
+    "blog-post-1-0d3": "29/path---blog-post-1-0-d-3-261-wKE5rZuXcq9rXRq4iUNxRzsQZE",
+    "blog-post-2-954": "258/path---blog-post-2-954-745-yfPtx1597GmbqQta877FH3gV4I"
   },
   "components": {
-    "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js": {
-      "query": "query singleQuery(\n  $path: String!\n) {\n  markdownRemark(fields: {slug: {eq: $path}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
-      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js"
-    },
     "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js": {
       "query": "query indeQuery(\n  $path: String!\n) {\n  markdownRemark(fields: {slug: {eq: $path}}) {\n    frontmatter {\n      title\n    }\n    html\n  }\n}\n",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js"
@@ -1349,6 +1591,14 @@
     "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js": {
       "query": "",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js": {
+      "query": "query homeJennCodingJennsGatsbyStarterUiSrcTemplatesPostJs2498924711(\n  $path: String!\n) {\n  markdownRemark(fields: {slug: {eq: $path}}) {\n    html\n    frontmatter {\n      title\n      image\n    }\n  }\n}\n",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/post.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js": {
+      "query": "query homeJennCodingJennsGatsbyStarterUiSrcTemplatesBlogJs1012888356(\n  $path: String!\n) {\n  thisPage: markdownRemark(fields: {slug: {eq: $path}}) {\n    frontmatter {\n      title\n    }\n  }\n  posts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/content/blog//\"}}) {\n    edges {\n      node {\n        fields {\n          slug\n        }\n        frontmatter {\n          title\n          excerpt\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js"
     }
   },
   "staticQueryComponents": {}
