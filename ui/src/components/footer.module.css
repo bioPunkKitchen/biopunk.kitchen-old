@@ -1,8 +1,10 @@
-@import '../layouts/variables.css';
+@value variables: "../layouts/variables.css";
+@value grey, padding from variables;
 
 
 .footer {
   background-color: grey;
   width: 100%;
   height: 120px;
+  padding: padding;
 }

@@ -1,6 +1,1 @@
 @value variables: "../layouts/variables.css";
-@value maxContentWidth from variables;
-
-.main {
-  max-width: maxContentWidth;
-}

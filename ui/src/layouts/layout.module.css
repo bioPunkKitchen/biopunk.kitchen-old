@@ -1,4 +1,5 @@
-@import "./variables.css";
+@value variables: "../layouts/variables.css";
+@value maxContentWidth, padding from variables;
 
 .main {
   max-width: maxContentWidth;

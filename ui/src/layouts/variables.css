@@ -8,4 +8,4 @@
 
 /* breakpoints*/
 @value break-mobile: 420px;
-@value break-tablet: 768px;
+@value breakTablet: 768px;

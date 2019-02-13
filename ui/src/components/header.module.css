@@ -1,4 +1,5 @@
-@import "../layouts/variables.css";
+@value variables: "../layouts/variables.css";
+@value grey, padding from variables;
 
 
 @value imageHeight: 500px;

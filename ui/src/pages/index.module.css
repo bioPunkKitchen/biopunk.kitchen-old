@@ -1,5 +1,1 @@
-@import "../layouts/variables.css";
-
-.main {
-  max-width: maxContentWidth;
-}
+@value variables: "../layouts/variables.css";

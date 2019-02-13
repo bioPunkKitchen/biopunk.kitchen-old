@@ -1,9 +1,10 @@
-@import "../layouts/variables.css";
+@value variables: "../layouts/variables.css";
+@value breakTablet from variables;
 
 .navMain{
   float: right;
 }
-@media (max-width: break-tablet){
+@media (max-width: breakTablet){
   .navMain{
     display: none;
   }
