@@ -12,8 +12,12 @@
     "gatsby-source-filesystem": "1.5.27",
     "gatsby-transformer-remark": "1.7.37",
     "gatsby-transformer-sharp": "1.6.22",
+    "history": "^4.7.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
     "react-helmet": "^5.2.0",
-    "react-markdown": "^3.3.0"
+    "react-markdown": "^3.3.0",
+    "react-router-dom": "^4.3.1"
   },
   "keywords": [
     "gatsby"

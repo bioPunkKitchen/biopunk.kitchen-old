@@ -1,29 +1,28 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
+      "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
       "component": "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4c589a6558530a6990e8953eb3384670",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "d34e2ea56dc185991e4e7c317cee89a7",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -48,37 +47,33 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5d3f1cc9ec1f677c45f6f0c34f21f5a0",
+        "contentDigest": "512a727b2689cc0a9ee696b29c5d221f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createLayouts"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -87,17 +82,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8fcb5846e62194018de3c3ff852abc6a",
+        "contentDigest": "594f07ca5b2c48681c09bf317e435e89",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -123,17 +118,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bf29cc0c60b1bafea19ba4a75ebe3eeb",
+        "contentDigest": "62d8b6905bb29a3a2e138700b3fa4086",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -158,25 +153,24 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1b29c086cfd5f1ceb538a65dca8e3e40",
+        "contentDigest": "c74727122764ab5ed1d43b8433cdef75",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
@@ -194,17 +188,52 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "db9a137f2cd960442ebd1f7b5b7e31ea",
+        "contentDigest": "ec383fa0b372d294e5f87afd3c56ecd9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bd6f71661b855ac64474336f3b65a19c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
       "pluginOptions": {
@@ -271,17 +300,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6a784eb6bb1bb76d1001628795179144",
+        "contentDigest": "47c601ee386a31b02ed1c8c31b95b047",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-source-filesystem": {
+    "49def689-7385-5d22-9889-89d215469301": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-source-filesystem",
-      "id": "Plugin gatsby-source-filesystem",
+      "id": "49def689-7385-5d22-9889-89d215469301",
       "name": "gatsby-source-filesystem",
       "version": "1.5.27",
       "pluginOptions": {
@@ -365,17 +394,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "56e2773537f1d19595181f687815f19f",
+        "contentDigest": "19b8895a11ac07ffa4f60dacc7b6e5d6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-favicon": {
+    "35b78606-5432-51f6-871c-2a2f0f79e83f": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon",
-      "id": "Plugin gatsby-plugin-favicon",
+      "id": "35b78606-5432-51f6-871c-2a2f0f79e83f",
       "name": "gatsby-plugin-favicon",
       "version": "2.1.1",
       "pluginOptions": {
@@ -394,9 +423,7 @@
           "windows": false
         }
       },
-      "nodeAPIs": [
-        "modifyWebpackConfig"
-      ],
+      "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
@@ -452,17 +479,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "59a35ae723a3278602c38d484a6b7725",
+        "contentDigest": "8927444fb19457cbbad6b0e45ba2d74b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-sharp": {
+    "84d6154d-4241-556c-a679-cc8339cac100": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-sharp",
-      "id": "Plugin gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
       "name": "gatsby-plugin-sharp",
       "version": "1.6.41",
       "pluginOptions": {
@@ -557,17 +584,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6db15ed8849f8c6347e2c9116caca98c",
+        "contentDigest": "b6be4051e18e361f2e0d4799a6200e40",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-sharp": {
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-sharp",
-      "id": "Plugin gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
       "version": "1.6.22",
       "pluginOptions": {
@@ -628,17 +655,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "457a34dacdccb47a5ce18f643bf9f4bf",
+        "contentDigest": "7b58789c37072b2a20a5ea00ee94a8ff",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-remark": {
+    "ba9e1b1a-0861-5271-8cea-964bbb5490f7": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-remark",
-      "id": "Plugin gatsby-transformer-remark",
+      "id": "ba9e1b1a-0861-5271-8cea-964bbb5490f7",
       "name": "gatsby-transformer-remark",
       "version": "1.7.37",
       "pluginOptions": {
@@ -766,17 +793,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d1c0205d6b1e438eba164539701c3d37",
+        "contentDigest": "18b497b485bdbde51d67a6ed9001cfcc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui",
-      "id": "Plugin default-site-plugin",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "8c22a7682891b87ed159267fe78e5a49",
       "pluginOptions": {
@@ -792,7 +819,7 @@
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "keywords": [
           "gatsby"
         ],
@@ -810,6 +837,10 @@
           {
             "name": "gatsby-plugin-favicon",
             "version": "2.1.1"
+          },
+          {
+            "name": "gatsby-plugin-layout",
+            "version": "^1.0.12"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -832,12 +863,28 @@
             "version": "1.6.22"
           },
           {
+            "name": "history",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.1"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           },
           {
             "name": "react-markdown",
             "version": "^3.3.0"
+          },
+          {
+            "name": "react-router-dom",
+            "version": "^4.3.1"
           }
         ],
         "devDependencies": [],
@@ -845,19 +892,19 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9ff11ce9858c93f7ab78a5cd1b3c40c8",
+        "contentDigest": "7f0ce7ca1f611a83883b1f0e0823ced2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
+    "01ddc71c-091c-5dfd-b027-dd51de7f31be": {
       "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+      "id": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
       "name": "gatsby-plugin-page-creator",
-      "version": "1.0.1",
+      "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
         "path": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages",
@@ -872,7 +919,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "1.0.1",
+        "version": "2.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -885,8 +932,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -897,12 +944,20 @@
             "version": "^1.7.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
           },
           {
             "name": "parse-filepath",
@@ -915,22 +970,35 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6997f59918ee76d107c2c023dd2c968e",
+        "contentDigest": "f50caa6efd3979bf637acb958645574b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -944,12 +1012,12 @@
       "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-12T17:05:50.183Z",
+      "buildTime": "2019-02-13T14:23:57.456Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "567cb13596182007add1e0bd4183d270",
+        "contentDigest": "3af2ccb19de27424ff494ccd9d807b95",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -997,52 +1065,6 @@
       "ctime": "2018-09-06T20:59:02.839Z",
       "birthtime": "2018-09-06T20:59:02.839Z"
     },
-    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file": {
-      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
-      "children": [
-        "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1dd5916793cc3e6e23a8d4f532591745",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
-      "relativePath": "index.md",
-      "extension": "md",
-      "size": 39,
-      "prettySize": "39 B",
-      "modifiedTime": "2018-09-06T18:57:34.290Z",
-      "accessTime": "2019-02-09T15:33:44.761Z",
-      "changeTime": "2018-09-06T20:59:02.839Z",
-      "birthTime": "2018-09-06T20:59:02.839Z",
-      "root": "/",
-      "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10640924,
-      "blocks": 8,
-      "atimeMs": 1549726424761.3538,
-      "mtimeMs": 1536260254289.758,
-      "ctimeMs": 1536267542838.6016,
-      "birthtimeMs": 1536267542838.6016,
-      "atime": "2019-02-09T15:33:44.761Z",
-      "mtime": "2018-09-06T18:57:34.290Z",
-      "ctime": "2018-09-06T20:59:02.839Z",
-      "birthtime": "2018-09-06T20:59:02.839Z"
-    },
     "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file": {
       "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file",
       "children": [
@@ -1062,7 +1084,7 @@
       "size": 49,
       "prettySize": "49 B",
       "modifiedTime": "2018-09-06T19:56:20.416Z",
-      "accessTime": "2019-02-09T15:33:44.761Z",
+      "accessTime": "2019-02-12T17:05:52.888Z",
       "changeTime": "2018-09-06T20:59:02.839Z",
       "birthTime": "2018-09-06T20:59:02.839Z",
       "root": "/",
@@ -1080,38 +1102,60 @@
       "blksize": 4096,
       "ino": 10640925,
       "blocks": 8,
-      "atimeMs": 1549726424761.3538,
+      "atimeMs": 1549991152887.5698,
       "mtimeMs": 1536263780415.553,
       "ctimeMs": 1536267542838.6016,
       "birthtimeMs": 1536267542838.6016,
-      "atime": "2019-02-09T15:33:44.761Z",
+      "atime": "2019-02-12T17:05:52.888Z",
       "mtime": "2018-09-06T19:56:20.416Z",
       "ctime": "2018-09-06T20:59:02.839Z",
       "birthtime": "2018-09-06T20:59:02.839Z"
     },
-    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+      "children": [
+        "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "---\ntitle: homepage\n---\n\nhomepage text\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2f94de7c273be6496e5bd8587ec50093",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
+        "contentDigest": "1dd5916793cc3e6e23a8d4f532591745",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "homepage",
-        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
-        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
-      "fields": {
-        "slug": "/"
-      }
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
+      "relativePath": "index.md",
+      "extension": "md",
+      "size": 39,
+      "prettySize": "39 B",
+      "modifiedTime": "2018-09-06T18:57:34.290Z",
+      "accessTime": "2019-02-12T17:05:52.888Z",
+      "changeTime": "2018-09-06T20:59:02.839Z",
+      "birthTime": "2018-09-06T20:59:02.839Z",
+      "root": "/",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10640924,
+      "blocks": 8,
+      "atimeMs": 1549991152887.5698,
+      "mtimeMs": 1536260254289.758,
+      "ctimeMs": 1536267542838.6016,
+      "birthtimeMs": 1536267542838.6016,
+      "atime": "2019-02-12T17:05:52.888Z",
+      "mtime": "2018-09-06T18:57:34.290Z",
+      "ctime": "2018-09-06T20:59:02.839Z",
+      "birthtime": "2018-09-06T20:59:02.839Z"
     },
     "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": {
       "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark",
@@ -1138,30 +1182,32 @@
         "slug": "/blog"
       }
     },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
+    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
       "children": [],
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "7822733de94b8fa2dee4d943de1c610c",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
+        "content": "---\ntitle: homepage\n---\n\nhomepage text\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "2f94de7c273be6496e5bd8587ec50093",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "homepage",
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
+      "fields": {
+        "slug": "/"
       }
     },
     "SitePage /blog": {
-      "layout": "index",
-      "jsonName": "blog.json",
+      "jsonName": "blog-c06",
       "internalComponentName": "ComponentBlog",
       "path": "/blog",
       "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js",
@@ -1169,65 +1215,83 @@
       "context": {
         "slug": "/blog"
       },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js",
       "id": "SitePage /blog",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ff3877720b62679aa5274dc9605d1ba1",
-        "description": "Your site's \"gatsby-node.js\"",
+        "contentDigest": "d87d876377a717ad39815db2ee7d4a23",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "pluginCreatorId": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "797847972ca37c9e9c6356d43b75688f",
+        "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
+      "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
       "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "pluginCreatorId": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "id": "SitePage /404/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75daa0e91d51aa248906e2a9d01fe31b",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "d8ee6d05a6aac4f82fd21c4aaa42e925",
+        "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
+      "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
       "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "id": "SitePage /404.html",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8dec70eb280368ac846e4203681b92de",
-        "description": "Plugin prod-404",
+        "contentDigest": "ed52f5fdbf7235858fa9d7e35896f05c",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f15cae65cad1f4176f16f3255685dfbb"
+    "PLUGINS_HASH": "bc81e810452031be0eeacd8992773186"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1239,12 +1303,35 @@
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "MarkdownRemark": [
-        "LAYOUT___index"
+        null
       ]
     }
-  }
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "22/path---index-6a9-r08w3TWEgbO4GFpIOVmTCVhWXQ",
+    "blog-c06": "822/path---blog-c-06-a65-Tb4B8RymVv5x2RttSCd9g7hEm4Q",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js": {
+      "query": "query singleQuery(\n  $path: String!\n) {\n  markdownRemark(fields: {slug: {eq: $path}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js": {
+      "query": "query indeQuery(\n  $path: String!\n) {\n  markdownRemark(fields: {slug: {eq: $path}}) {\n    frontmatter {\n      title\n    }\n    html\n  }\n}\n",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js"
+    }
+  },
+  "staticQueryComponents": {}
 }
