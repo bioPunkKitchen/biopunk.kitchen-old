@@ -1279,6 +1279,26 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /legal/": {
+      "jsonName": "legal-9f3",
+      "internalComponentName": "ComponentLegal",
+      "path": "/legal/",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js",
+      "componentChunkName": "component---src-pages-legal-js",
+      "context": {},
+      "pluginCreator___NODE": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "pluginCreatorId": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js",
+      "id": "SitePage /legal/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1dc7cedaadb50917e3a902ec8c5e80e3",
+        "description": "01ddc71c-091c-5dfd-b027-dd51de7f31be",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -1306,7 +1326,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "22/path---index-6a9-r08w3TWEgbO4GFpIOVmTCVhWXQ",
     "blog-c06": "822/path---blog-c-06-a65-Tb4B8RymVv5x2RttSCd9g7hEm4Q",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "legal-9f3": "623/path---legal-9-f-3-f8b-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js": {
@@ -1324,6 +1345,10 @@
     "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js": {
       "query": "",
       "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js": {
+      "query": "",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/legal.js"
     }
   },
   "staticQueryComponents": {}
