@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      plugin: require('/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
       options: {"plugins":[],"logo":"./src/favicon.ico","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

@@ -5,24 +5,24 @@
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c6b02163381921892ada0c9766607d1f",
+        "contentDigest": "4c589a6558530a6990e8953eb3384670",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "180e74c49d06b05ad2df6bc1db9b3a22",
+        "contentDigest": "5d3f1cc9ec1f677c45f6f0c34f21f5a0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +90,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4e117cdf9d2d3201b48ed99177087104",
+        "contentDigest": "8fcb5846e62194018de3c3ff852abc6a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +109,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +126,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "764e3b16636bab5866299d253934772a",
+        "contentDigest": "bf29cc0c60b1bafea19ba4a75ebe3eeb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +144,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +161,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0185adc94cddbcba8e1f778f46536faf",
+        "contentDigest": "1b29c086cfd5f1ceb538a65dca8e3e40",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +180,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +197,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e0cc1be6f058f5ac946a216fbf50e67c",
+        "contentDigest": "db9a137f2cd960442ebd1f7b5b7e31ea",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
@@ -215,7 +215,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -274,19 +274,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fb8dbdc190af17725010299fbcab4757",
+        "contentDigest": "6a784eb6bb1bb76d1001628795179144",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-source-filesystem",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.5.27",
       "pluginOptions": {
         "plugins": [],
-        "path": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/../content",
+        "path": "/home/jenn/coding/jenns-gatsby-starter/ui/../content",
         "name": "pages"
       },
       "nodeAPIs": [
@@ -295,7 +295,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -368,13 +368,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7316eeef4248b91675ebfe12958563be",
+        "contentDigest": "56e2773537f1d19595181f687815f19f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-favicon": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon",
       "id": "Plugin gatsby-plugin-favicon",
       "name": "gatsby-plugin-favicon",
       "version": "2.1.1",
@@ -401,7 +401,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-favicon",
       "packageJson": {
         "name": "gatsby-plugin-favicon",
         "description": "Gatsby plugin to add favicon for all configurations",
@@ -455,13 +455,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "853248a048bc76c6b9c4b801d3a314df",
+        "contentDigest": "59a35ae723a3278602c38d484a6b7725",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-sharp",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "1.6.41",
@@ -471,7 +471,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -560,13 +560,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b200c732e73b07dfb5e7da9e0896f401",
+        "contentDigest": "6db15ed8849f8c6347e2c9116caca98c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-sharp": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-sharp",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
       "version": "1.6.22",
@@ -580,7 +580,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -631,13 +631,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "09ad4eee6072e85bea7fdfe6d40e0048",
+        "contentDigest": "457a34dacdccb47a5ce18f643bf9f4bf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-remark": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-remark",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
       "version": "1.7.37",
@@ -650,7 +650,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -769,13 +769,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8697d6198b6874e61a614f047fbd92fd",
+        "contentDigest": "d1c0205d6b1e438eba164539701c3d37",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "8c22a7682891b87ed159267fe78e5a49",
@@ -788,7 +788,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui",
       "packageJson": {
         "name": "gatsby-starter-default",
         "description": "Gatsby default starter",
@@ -801,7 +801,7 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.236"
+            "version": "^2.0.0"
           },
           {
             "name": "gatsby-link",
@@ -848,19 +848,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7408face0b52ac185d6344ae4c159cd5",
+        "contentDigest": "9ff11ce9858c93f7ab78a5cd1b3c40c8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages",
+        "path": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -868,7 +868,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/home/jenn/coding/jenns-gatsby-starter/ui/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -930,7 +930,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "21f369d7e92a33db6247830adc8543e0",
+        "contentDigest": "6997f59918ee76d107c2c023dd2c968e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -944,37 +944,37 @@
       "host": "0.0.0.0",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-06T20:19:07.847Z",
+      "buildTime": "2019-02-12T17:05:50.183Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7dc135af89f3216d06c37a95d4eccf0",
+        "contentDigest": "567cb13596182007add1e0bd4183d270",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/../content absPath of file": {
-      "id": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/../content absPath of file",
+    "/home/jenn/coding/jenns-gatsby-starter/ui/../content absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/ui/../content absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f77696f3bf7a986b820cea3c580fc69e",
+        "contentDigest": "9d8a4a6b0af3e7b9efc6515945ee2e83",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/../content",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/ui/../content",
       "relativePath": "",
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2018-09-06T19:08:01.860Z",
-      "accessTime": "2018-09-06T19:08:01.880Z",
-      "changeTime": "2018-09-06T19:08:01.860Z",
-      "birthTime": "2018-09-06T19:08:01.860Z",
+      "accessTime": "2019-02-12T15:16:33.389Z",
+      "changeTime": "2018-09-06T20:59:02.839Z",
+      "birthTime": "2018-09-06T20:59:02.839Z",
       "root": "/",
-      "dir": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/..",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/ui/..",
       "base": "content",
       "ext": "",
       "name": "content",
@@ -986,67 +986,21 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 1835036,
+      "ino": 10640923,
       "blocks": 8,
-      "atimeMs": 1536260881879.6235,
-      "mtimeMs": 1536260881859.6233,
-      "ctimeMs": 1536260881859.6233,
-      "birthtimeMs": 1536260881859.6233,
-      "atime": "2018-09-06T19:08:01.880Z",
+      "atimeMs": 1549984593389.3723,
+      "mtimeMs": 1536260881859.623,
+      "ctimeMs": 1536267542838.6016,
+      "birthtimeMs": 1536267542838.6016,
+      "atime": "2019-02-12T15:16:33.389Z",
       "mtime": "2018-09-06T19:08:01.860Z",
-      "ctime": "2018-09-06T19:08:01.860Z",
-      "birthtime": "2018-09-06T19:08:01.860Z"
+      "ctime": "2018-09-06T20:59:02.839Z",
+      "birthtime": "2018-09-06T20:59:02.839Z"
     },
-    "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file": {
-      "id": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file",
+    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
       "children": [
-        "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c8da3ad85fada81da2c39b10670c383e",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md",
-      "relativePath": "blog.md",
-      "extension": "md",
-      "size": 49,
-      "prettySize": "49 B",
-      "modifiedTime": "2018-09-06T19:56:11.504Z",
-      "accessTime": "2018-09-06T19:08:50.856Z",
-      "changeTime": "2018-09-06T19:56:11.504Z",
-      "birthTime": "2018-09-06T19:56:11.504Z",
-      "root": "/",
-      "dir": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content",
-      "base": "blog.md",
-      "ext": ".md",
-      "name": "blog",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 1835376,
-      "blocks": 8,
-      "atimeMs": 1536260930855.819,
-      "mtimeMs": 1536263771503.5312,
-      "ctimeMs": 1536263771503.5312,
-      "birthtimeMs": 1536263771503.5312,
-      "atime": "2018-09-06T19:08:50.856Z",
-      "mtime": "2018-09-06T19:56:11.504Z",
-      "ctime": "2018-09-06T19:56:11.504Z",
-      "birthtime": "2018-09-06T19:56:11.504Z"
-    },
-    "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file": {
-      "id": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file",
-      "children": [
-        "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark"
+        "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1056,17 +1010,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
       "relativePath": "index.md",
       "extension": "md",
       "size": 39,
       "prettySize": "39 B",
       "modifiedTime": "2018-09-06T18:57:34.290Z",
-      "accessTime": "2018-09-06T19:05:52.511Z",
-      "changeTime": "2018-09-06T19:05:52.443Z",
-      "birthTime": "2018-09-06T19:05:52.443Z",
+      "accessTime": "2019-02-09T15:33:44.761Z",
+      "changeTime": "2018-09-06T20:59:02.839Z",
+      "birthTime": "2018-09-06T20:59:02.839Z",
       "root": "/",
-      "dir": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
@@ -1078,25 +1032,71 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 1835375,
+      "ino": 10640924,
       "blocks": 8,
-      "atimeMs": 1536260752511.068,
-      "mtimeMs": 1536260254289.7588,
-      "ctimeMs": 1536260752443.0679,
-      "birthtimeMs": 1536260752443.0679,
-      "atime": "2018-09-06T19:05:52.511Z",
+      "atimeMs": 1549726424761.3538,
+      "mtimeMs": 1536260254289.758,
+      "ctimeMs": 1536267542838.6016,
+      "birthtimeMs": 1536267542838.6016,
+      "atime": "2019-02-09T15:33:44.761Z",
       "mtime": "2018-09-06T18:57:34.290Z",
-      "ctime": "2018-09-06T19:05:52.443Z",
-      "birthtime": "2018-09-06T19:05:52.443Z"
+      "ctime": "2018-09-06T20:59:02.839Z",
+      "birthtime": "2018-09-06T20:59:02.839Z"
     },
-    "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file",
+      "children": [
+        "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c8da3ad85fada81da2c39b10670c383e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md",
+      "relativePath": "blog.md",
+      "extension": "md",
+      "size": 49,
+      "prettySize": "49 B",
+      "modifiedTime": "2018-09-06T19:56:20.416Z",
+      "accessTime": "2019-02-09T15:33:44.761Z",
+      "changeTime": "2018-09-06T20:59:02.839Z",
+      "birthTime": "2018-09-06T20:59:02.839Z",
+      "root": "/",
+      "dir": "/home/jenn/coding/jenns-gatsby-starter/content",
+      "base": "blog.md",
+      "ext": ".md",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10640925,
+      "blocks": 8,
+      "atimeMs": 1549726424761.3538,
+      "mtimeMs": 1536263780415.553,
+      "ctimeMs": 1536267542838.6016,
+      "birthtimeMs": 1536267542838.6016,
+      "atime": "2019-02-09T15:33:44.761Z",
+      "mtime": "2018-09-06T19:56:20.416Z",
+      "ctime": "2018-09-06T20:59:02.839Z",
+      "birthtime": "2018-09-06T20:59:02.839Z"
+    },
+    "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file",
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
       "internal": {
         "content": "---\ntitle: homepage\n---\n\nhomepage text\n",
         "type": "MarkdownRemark",
-        "contentDigest": "857ac8d608da02cfd6e0b03216006037",
+        "contentDigest": "2f94de7c273be6496e5bd8587ec50093",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -1104,23 +1104,23 @@
       },
       "frontmatter": {
         "title": "homepage",
-        "_PARENT": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file",
-        "parent": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file"
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/index.md",
       "fields": {
         "slug": "/"
       }
     },
-    "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark",
+    "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file",
+      "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file",
       "internal": {
         "content": "---\ntemplateKey: blog\ntitle: blog\n---\n\nblog text\n",
         "type": "MarkdownRemark",
-        "contentDigest": "e6c1472ef29926865f72bea9605646a8",
+        "contentDigest": "d40f6c8d02dbf30cc3e8bc680fd6826f",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -1129,11 +1129,11 @@
       "frontmatter": {
         "title": "blog",
         "templateKey": "blog",
-        "_PARENT": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file",
-        "parent": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file"
+        "_PARENT": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file",
+        "parent": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file"
       },
       "excerpt": "",
-      "fileAbsolutePath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md",
+      "fileAbsolutePath": "/home/jenn/coding/jenns-gatsby-starter/content/blog.md",
       "fields": {
         "slug": "/blog"
       }
@@ -1143,18 +1143,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/index.js",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/index.js",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1c71ba088d01cf39c27485fca0ced5dc",
+        "contentDigest": "7822733de94b8fa2dee4d943de1c610c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1164,20 +1164,20 @@
       "jsonName": "blog.json",
       "internalComponentName": "ComponentBlog",
       "path": "/blog",
-      "component": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/templates/blog.js",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js",
       "componentChunkName": "component---src-templates-blog-js",
       "context": {
         "slug": "/blog"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/templates/blog.js",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/templates/blog.js",
       "id": "SitePage /blog",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "040345e10390fcc38188e2a7ad6c6b98",
+        "contentDigest": "ff3877720b62679aa5274dc9605d1ba1",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1187,18 +1187,18 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/404.js",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/404.js",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f012c62323e0763d8e1a8aa10cdc5322",
+        "contentDigest": "75daa0e91d51aa248906e2a9d01fe31b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1208,18 +1208,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/404.js",
+      "component": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/home/jenn/n3xtcoder/jenns-gatsby-starter/ui/src/pages/404.js",
+      "componentPath": "/home/jenn/coding/jenns-gatsby-starter/ui/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4fe88480010f5a38d7deacf14466bfae",
+        "contentDigest": "8dec70eb280368ac846e4203681b92de",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1227,15 +1227,15 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ece2bb7cc76ab98b3c3964eb1f936e28"
+    "PLUGINS_HASH": "f15cae65cad1f4176f16f3255685dfbb"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": [
-        "/blog"
-      ],
-      "/home/jenn/n3xtcoder/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": [
+      "/home/jenn/coding/jenns-gatsby-starter/content/index.md absPath of file >>> MarkdownRemark": [
         "/"
+      ],
+      "/home/jenn/coding/jenns-gatsby-starter/content/blog.md absPath of file >>> MarkdownRemark": [
+        "/blog"
       ]
     },
     "connections": {
