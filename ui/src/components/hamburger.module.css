@@ -5,6 +5,12 @@
   position: relative;
   display: inline-block;
   float: right;
+  z-index: auto;
+}
+@media (min-width: breakTablet){
+  .hamburgerWrapper{
+    z-index: -1;
+  }
 }
 
 .overlay{
