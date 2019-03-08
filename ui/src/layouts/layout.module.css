@@ -1,8 +1,2 @@
 @value variables: "../layouts/variables.css";
 @value maxContentWidth, padding from variables;
-
-.main {
-  max-width: maxContentWidth;
-  margin: 0 auto;
-  padding: padding;
-}

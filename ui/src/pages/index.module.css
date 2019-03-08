@@ -1,1 +1,32 @@
 @value variables: "../layouts/variables.css";
+
+
+.topSection {
+  background: linear-gradient(65deg, #9c9c9c);
+  background: linear-gradient(-45deg, #fff, #9c9c9c);
+  min-height: 100vh;
+  color: white;
+  margin: 0 auto;
+  padding: 20vh 20% 5vh 20%;
+  display: block;
+}
+@media (max-width: 420px){
+  .topSection {
+      padding: 20vh 10% 5vh 10%;
+  }
+}
+
+
+.topSection p {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.5em;
+  line-height: 2.4rem;
+  padding: 20px 0;
+  text-align: center;
+}
+@media(max-width: 700px){
+    .topSection p {
+        font-size: 1.2rem;
+    }
+}
