@@ -1,8 +1,7 @@
 ---
 templateKey: post
-title: post 2
+title: Project B
 image: /media/candy.jpg
-excerpt: foo bar
 ---
 
 lorem ipsum 2

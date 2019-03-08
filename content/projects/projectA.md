@@ -1,7 +1,6 @@
 ---
 templateKey: post
-title: post 1
-excerpt: hello world
+title: Project A
 image: /media/hex.jpg
 content:
   - col1: >-

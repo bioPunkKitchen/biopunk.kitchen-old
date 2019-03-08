@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: speexy/gatsby-boilerplate
+  repo: speexy/biopunk.kitchen
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "ui/static/media" # Media files will be stored in the repo under images/uploads
@@ -9,7 +9,7 @@ public_folder: /media
 
 collections:
   - name: "pages"
-    label: "Pages ♛"
+    label: "Pages"
     files:
       - file: "content/index.md"
         label: "Home"
@@ -17,21 +17,44 @@ collections:
         fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/blog.md"
-        label: "Blog"
-        name: "blog"
+      - file: "content/about.md"
+        label: "About"
+        name: "about"
         fields:
-            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog"}
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Body", name: "body", widget: "markdown"}
-  - name: "posts"
-    label: "Posts ✒"
-    folder: "content/blog"
+      - file: "content/equipment.md"
+        label: "Equipment Oveview"
+        name: "equipment-overview"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "equipment"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/projects.md"
+        label: "Project Overview"
+        name: "project-overview"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
+  - name: "equipment"
+    label: "Equipment"
+    folder: "content/equipment"
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "equipment"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown", pattern: ['^.{0,350}$', "Must have between 0 and 350 characters"] }
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 
-import styles from './blog.module.css';
 
 export default ({ data }) => {
 
@@ -11,12 +10,11 @@ export default ({ data }) => {
             <div>
                 <h1>{data.thisPage.frontmatter.title}</h1>
                 {
-                    data.posts.edges.map(( post, index ) => {
+                    data.projects.edges.map(( project, index ) => {
                         return (
-                            <Link to={post.node.fields.slug}>
+                            <Link to={project.node.fields.slug}>
                                 <article key={index}>
-                                    <h1>{post.node.frontmatter.title}</h1>
-                                    <p>{post.node.frontmatter.excerpt}</p>
+                                    <h1>{project.node.frontmatter.title}</h1>
                                 </article>
                             </Link>
                         );
@@ -28,15 +26,14 @@ export default ({ data }) => {
 
 };
 
-
-export const blogQuery = graphql`
+export const projectsQuery = graphql`
   query ($path: String!) {
     thisPage: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title
       }
     }
-    posts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/blog\//"}}) {
+    projects: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/projects\//"}}) {
       edges {
         node {
           fields {
@@ -44,7 +41,6 @@ export const blogQuery = graphql`
           }
           frontmatter {
             title
-            excerpt
           }
         }
       }

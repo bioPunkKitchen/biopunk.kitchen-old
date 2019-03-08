@@ -10,8 +10,14 @@ const NavMain = ( props ) => {
     return (
         <nav className={style}>
             <ul>
-                <Link to={'/blog'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
-              Blog
+                <Link to={'/equipment'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
+              Equipment
+                </Link>
+                <Link to={'/projects'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
+              Projects
+                </Link>
+                <Link to={'/about'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
+              About
                 </Link>
             </ul>
         </nav>
