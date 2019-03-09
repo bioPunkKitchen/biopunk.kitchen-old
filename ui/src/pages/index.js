@@ -16,7 +16,8 @@ export default ({ data }) => {
                 <img src={Logo} />
                 <p>{subline}</p>
             </section>
-            <Hero image={image}/>
+            <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
+            </section>
         </Layout>
     );
 
