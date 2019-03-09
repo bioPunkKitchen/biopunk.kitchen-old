@@ -1,10 +1,10 @@
 ---
 templateKey: about
 title: About
-image: /media/candy.jpg
+image: /media/kitchen.jpg
 ---
-
-- Why (Mission)
-- How
-- what
-- Who
+* Why (Mission)
+* How
+* what
+* Who
+  ![]()
