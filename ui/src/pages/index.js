@@ -35,6 +35,9 @@ export default ({ data }) => {
             </section>
             <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
             </section>
+            <section>
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+            </section>
         </Layout>
     );
 
