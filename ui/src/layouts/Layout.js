@@ -11,10 +11,10 @@ export default ({ type, children }) => {
     return (
         <div>
             <Helmet
-                title="Title"
+                title="bioPUNK.kitchen"
                 meta={[
-                    { name: 'description', content: 'Description' },
-                    { name: 'keywords', content: 'keywords' },
+                    { name: 'description', content: 'Community based biology studio & science atelier at the gates of Berlin' },
+                    { name: 'lang', content: 'en' }
                 ]}
             />
             <Header background={type}/>
