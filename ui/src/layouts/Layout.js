@@ -16,7 +16,9 @@ export default ({ type, children }) => {
                     { name: 'description', content: 'Community based biology studio & science atelier at the gates of Berlin' },
                     { name: 'lang', content: 'en' }
                 ]}
-            />
+            >
+                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+            </Helmet>
             <Header background={type}/>
             <div className={styles.main}>
                 {children}
