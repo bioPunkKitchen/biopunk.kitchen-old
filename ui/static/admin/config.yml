@@ -16,6 +16,7 @@ collections:
         name: "index"
         fields:
             - {label: "Title", name: "title", widget: "string"}
+            - {label: "Tagline", name: "subline", widget: "string"}
             - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about.md"
