@@ -1,18 +1,29 @@
 @value variables: "../layouts/variables.css";
-@value breakTablet from variables;
+@value margin from variables;
 
 .navMain{
-  float: right;
-}
-@media (max-width: breakTablet){
-  .navMain{
-    display: none;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
-.navOpened {
+.navMain ul {
+  padding: 0;
 }
 
-.navClosed {
-
+.navMain a {
+  display: block;
+  color: white;
+  margin: margin;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.6rem;
+  letter-spacing: 0.5em;
+  line-height: 2.4rem;
+}
+@media(max-width: 700px){
+    .navMain a {
+        font-size: 1.2rem;
+    }
 }

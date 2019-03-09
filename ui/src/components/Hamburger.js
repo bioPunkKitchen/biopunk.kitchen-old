@@ -11,7 +11,6 @@ class Hamburger extends Component {
       hamburgerStyle: styles.hamburgerOpen,
       hamburgerLineStyle: styles.hamburgerLineOpen,
       overlayStyle: styles.overlayClosed,
-      navStyle: stylesNav.navClosed
     }
 
     closeOverlay = (e) => {
@@ -20,7 +19,6 @@ class Hamburger extends Component {
         hamburgerStyle: styles.hamburgerOpen,
         hamburgerLineStyle: styles.hamburgerLineOpen,
         overlayStyle: styles.overlayClosed,
-        navStyle: stylesNav.navClosed
       })
     }
 
@@ -30,7 +28,6 @@ class Hamburger extends Component {
         hamburgerStyle: styles.hamburgerClose,
         hamburgerLineStyle: styles.hamburgerLineClose,
         overlayStyle: styles.overlayOpened,
-        navStyle: stylesNav.navOpened
       })
     }
 
@@ -46,7 +43,7 @@ class Hamburger extends Component {
         return (
           <div className={styles.hamburgerWrapper}>
             <div className={this.state.overlayStyle}>
-              <NavMain style={this.state.navStyle} closeOverlay={this.closeOverlay}/>
+              <NavMain closeOverlay={this.closeOverlay}/>
             </div>
             <div onClick={this.toggle} className={this.state.hamburgerStyle}>
                 <span className={this.state.hamburgerLineStyle} ></span>

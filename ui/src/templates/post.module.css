@@ -1,7 +1,9 @@
 @value variables: "../layouts/variables.css";
+@value headerHeight from variables;
 
 .post {
   margin: 0 auto;
+  margin-top: headerHeight;
 }
 
 .post img {

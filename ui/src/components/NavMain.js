@@ -8,7 +8,7 @@ const NavMain = ( props ) => {
     const style = props.style === undefined ? styles.navMain : props.style;
 
     return (
-        <nav className={style}>
+        <nav className={styles.navMain}>
             <ul>
                 <Link to={'/equipment'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
               Equipment

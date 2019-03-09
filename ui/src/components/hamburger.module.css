@@ -14,7 +14,8 @@
 }
 
 .overlay{
-  background-color: grey;
+  background: linear-gradient(65deg, #9c9c9c);
+  background: linear-gradient(225deg, #9c9c9c, #fff);
   position: fixed;
   top: 0;
   right: 0;
@@ -41,11 +42,6 @@
   position: relative;
   height: 34px;
   width: 46px;
-}
-@media (min-width: breakTablet){
-  .hamburger{
-    display: none;
-  }
 }
 
 .hamburgerOpen {

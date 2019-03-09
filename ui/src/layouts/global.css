@@ -1,15 +1,20 @@
-@import "variables.css";
+@value variables: "./variables.css";
+@value grey from variables;
 
-
-:global * {
+* {
   box-sizing: border-box;
   margin: 0;
+  color: grey;
 }
 
 /* base font styles */
-:global body {
+body {
   margin: 0;
   font-size: 16px;
   font-family: 'Jost*';
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
 }

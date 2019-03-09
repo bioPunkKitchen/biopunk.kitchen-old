@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
+import styles from './post.module.css';
 
 
 export default ({ data }) => {
 
     return (
         <Layout>
-            <div>
+            <div className={styles.post}>
                 <h1>{data.thisPage.frontmatter.title}</h1>
                 {
                     data.projects.edges.map(( project, index ) => {

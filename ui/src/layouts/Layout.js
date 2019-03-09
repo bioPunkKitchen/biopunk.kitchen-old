@@ -6,7 +6,7 @@ import './global.css';
 import styles from './layout.module.css';
 
 
-export default ({ children }) => {
+export default ({ type, children }) => {
 
     return (
         <div>
@@ -17,7 +17,7 @@ export default ({ children }) => {
                     { name: 'keywords', content: 'keywords' },
                 ]}
             />
-            <Header/>
+            <Header background={type}/>
             <div className={styles.main}>
                 {children}
             </div>

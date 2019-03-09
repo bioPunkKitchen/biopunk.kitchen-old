@@ -1,10 +1,12 @@
 /* colors */
 @value active: #f00;
-@value grey: #888;
+@value grey: #9c9c9c;
 
 /*sizes*/
 @value maxContentWidth: 1200px;
 @value padding: 20px;
+@value headerHeight: 74px;
+@value margin: 20px;
 
 /* breakpoints*/
 @value break-mobile: 420px;

@@ -9,7 +9,7 @@ export default ({ data }) => {
     const { logo, subline } = data.markdownRemark.frontmatter;
 
     return (
-        <Layout>
+        <Layout type="home">
             <div className={styles.topSection}>
                 <img src={logo} />
                 <p>{subline}</p>
