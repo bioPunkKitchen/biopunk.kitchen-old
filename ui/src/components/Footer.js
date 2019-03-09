@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 
 const Footer = () => (
     <div className={styles.footer}>
-        <Link to={'/legal'} >Legal</Link>
+        <Link to={'/legal'} > Imprint & Privacy </Link>
     </div>
 );
 

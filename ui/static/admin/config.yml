@@ -42,6 +42,13 @@ collections:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
+      - file: "content/legal.md"
+        label: "Imprint & Privacy"
+        name: "legal"
+        fields:
+            - {label: "Template Key", name: "templateKey", widget: "hidden", default: "legal"}
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
   - name: "equipment"
     label: "Equipment"
     folder: "content/equipment"
