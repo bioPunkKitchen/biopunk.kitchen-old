@@ -1,5 +1,6 @@
 ---
 title: homepage
+tagline: Biology Studio & Science Atelier
 image: /media/lab.jpg
 ---
 Here you have space and tools for experimentation & design bio-based prototypes for a sustainable future. Accomplish your own ideas or cooperate with scientist, artist, activists, geeks or other enthusiasts, arround.

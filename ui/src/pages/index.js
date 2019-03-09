@@ -15,13 +15,13 @@ import styles from './index.module.css';
 
 export default ({ data }) => {
 
-    const { subline, image } = data.markdownRemark.frontmatter;
+    const { tagline, image } = data.markdownRemark.frontmatter;
 
     return (
         <Layout type="home">
             <section className={styles.topSection}>
                 <img src={Logo} />
-                <p>{subline}</p>
+                <p>{tagline}</p>
                 <div className={styles.social}>
                     <Instagram/>
                     <Email/>
@@ -45,7 +45,7 @@ export const indeQuery = graphql`
     markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title
-        subline
+        tagline
         image
       }
       html
