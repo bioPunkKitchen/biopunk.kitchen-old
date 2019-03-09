@@ -1,15 +1,20 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
+import Hero from '../components/Hero';
 import styles from './post.module.css';
 
 
 export default ({ data }) => {
 
+    const { title, image } = data.markdownRemark.frontmatter;
+
+
     return (
         <Layout>
+            <Hero image={image}/>
             <div className={styles.post}>
-                <h1>{data.thisPage.frontmatter.title}</h1>
+                <h1>{title}</h1>
                 {
                     data.equipment.edges.map(( equipment, index ) => {
                         return (
@@ -32,6 +37,7 @@ export const projectsQuery = graphql`
     thisPage: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title
+        image
       }
     }
     equipment: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/equipment\//"}}) {

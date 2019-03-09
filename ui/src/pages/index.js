@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
+import Hero from '../components/Hero';
 import styles from './index.module.css';
 
 
@@ -14,8 +15,7 @@ export default ({ data }) => {
                 <img src={logo} />
                 <p>{subline}</p>
             </section>
-            <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
-            </section>
+            <Hero image={image}/>
         </Layout>
     );
 
