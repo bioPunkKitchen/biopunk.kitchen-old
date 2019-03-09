@@ -1,7 +1,7 @@
 ---
 templateKey: projects
 title: Projects
-image: /media/waves.jpg
+image: /media/climatechamber-light-3-.jpg
 ---
 
 all the projects
