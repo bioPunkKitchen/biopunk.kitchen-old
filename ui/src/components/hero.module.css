@@ -1,0 +1,10 @@
+@value variables: "../layouts/variables.css";
+@value grey, padding from variables;
+
+
+.hero{
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
