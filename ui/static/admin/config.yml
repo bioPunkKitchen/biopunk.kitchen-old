@@ -16,6 +16,7 @@ collections:
         name: "index"
         fields:
             - {label: "Title", name: "title", widget: "string"}
+            - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about.md"
         label: "About"
@@ -23,6 +24,7 @@ collections:
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about"}
             - {label: "Title", name: "title", widget: "string"}
+            - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/equipment.md"
         label: "Equipment Oveview"
@@ -30,6 +32,7 @@ collections:
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "equipment"}
             - {label: "Title", name: "title", widget: "string"}
+            - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/projects.md"
         label: "Project Overview"
@@ -37,6 +40,7 @@ collections:
         fields:
             - {label: "Template Key", name: "templateKey", widget: "hidden", default: "projects"}
             - {label: "Title", name: "title", widget: "string"}
+            - {label: "Hero Image", name: "image", widget: "image"}
             - {label: "Body", name: "body", widget: "markdown"}
   - name: "equipment"
     label: "Equipment"
