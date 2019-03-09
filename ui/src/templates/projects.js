@@ -7,13 +7,13 @@ import styles from './post.module.css';
 
 export default ({ data }) => {
 
-    const { title, image } = data.markdownRemark.frontmatter;
+    const { title, image } = data.thisPage.frontmatter;
 
     return (
         <Layout>
             <Hero image={image}/>
             <div className={styles.post}>
-                <h1>{data.thisPage.frontmatter.title}</h1>
+                <h1>{title}</h1>
                 {
                     data.projects.edges.map(( project, index ) => {
                         return (
