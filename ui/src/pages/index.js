@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 import Hero from '../components/Hero';
+import Logo from '../../static/media/biopunkkitchen-noBg-centered.svg';
 import styles from './index.module.css';
 
 
@@ -12,7 +13,7 @@ export default ({ data }) => {
     return (
         <Layout type="home">
             <section className={styles.topSection}>
-                <img src={logo} />
+                <img src={Logo} />
                 <p>{subline}</p>
             </section>
             <Hero image={image}/>
@@ -26,7 +27,6 @@ export const indeQuery = graphql`
     markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title
-        logo
         subline
         image
       }
