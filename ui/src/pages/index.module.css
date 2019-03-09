@@ -3,7 +3,7 @@
 .topSection {
   background: linear-gradient(65deg, #9c9c9c);
   background: linear-gradient(-45deg, #fff, #9c9c9c);
-  min-height: 100vh;
+  min-height: 80vh;
   margin: 0 auto;
   padding: 30vh 20% 5vh 20%;
   display: block;
@@ -28,4 +28,11 @@
     .topSection p {
         font-size: 1.2rem;
     }
+}
+
+.hero{
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
 }

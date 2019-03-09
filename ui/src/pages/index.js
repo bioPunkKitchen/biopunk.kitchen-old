@@ -6,14 +6,16 @@ import styles from './index.module.css';
 
 export default ({ data }) => {
 
-    const { logo, subline } = data.markdownRemark.frontmatter;
+    const { logo, subline, image } = data.markdownRemark.frontmatter;
 
     return (
         <Layout type="home">
-            <div className={styles.topSection}>
+            <section className={styles.topSection}>
                 <img src={logo} />
                 <p>{subline}</p>
-            </div>
+            </section>
+            <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
+            </section>
         </Layout>
     );
 
@@ -26,6 +28,7 @@ export const indeQuery = graphql`
         title
         logo
         subline
+        image
       }
       html
     }
