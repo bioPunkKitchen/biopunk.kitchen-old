@@ -1,7 +1,7 @@
 ---
 templateKey: post
-title: Project A
-image: /media/kitchen.jpg
+title: Project C
+image: /media/lab.jpg
 content:
   - col1: >-
       Keytar cred +1 four loko humblebrag. Skateboard meggings gastropub roof

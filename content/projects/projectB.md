@@ -1,7 +1,7 @@
 ---
 templateKey: post
 title: Project B
-image: /media/candy.jpg
+image: /media/workbench.jpg
 ---
 
 lorem ipsum 2
