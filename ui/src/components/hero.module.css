@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value grey, padding from variables;
+@value blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
 
 
 .hero{
@@ -7,4 +7,20 @@
   height: 400px;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(225, 0, 204, 0.1);
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 80px;
+}
+
+.hero ~ div {
+  background-color: #00ccff;
+  height: 10px;
 }
