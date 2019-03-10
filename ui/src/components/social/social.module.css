@@ -1,12 +1,102 @@
-.discourse {}
+@value variables: "../../layouts/variables.css";
+@value pink, orange, blue, darkBlue, grey from variables;
+
+
+
+.discourse stop {
+  stop-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover stop:first-child {
+  stop-color: pink;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover stop:last-child {
+  stop-color: blue;
+  transition: all 0.5s ease-in-out;
+}
+/*
+.discourse path {
+  fill: #fff;
+  transition: all 0.5s ease-in-out;
+}
+*/
+.discourse path:nth-child(n+2){
+  fill: #bbb;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(n+2){
+  fill: #fff;
+  transition: all 0.5s ease-in-out;
+}
+/*
+.discourse:hover path:first-child {
+  fill: #000;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(2) {
+  fill:#f2e88f;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(3) {
+  fill:#00aeef;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(4) {
+  fill:#00953a;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(5) {
+  fill:#e63c2f;
+  transition: all 0.5s ease-in-out;
+}
+.discourse:hover path:nth-child(6) {
+  fill:#d13239;
+  transition: all 0.5s ease-in-out;
+}
+*/
 
 .email {}
 
-.facebook {}
+.facebook stop:first-child, .facebook stop:last-child {
+  stop-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.facebook:hover stop:first-child{
+  stop-color: pink;
+  transition: all 0.5s ease-in-out;
+}
+.facebook:hover stop:last-child{
+  stop-color: blue;
+  transition: all 0.5s ease-in-out;
+}
 
 .github {}
-
-.instagram {}
+/*
+.instagram path:first-child, .instagram path:nth-child(2) {
+  fill: #fff;
+}
+*/
+.instagram path:last-child {
+  fill: #bbb;
+  transition: all 0.5s ease-in-out;
+}
+.instagram:hover path:last-child {
+  fill: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.instagram stop {
+  stop-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.instagram:hover stop:first-child {
+  stop-color: pink;
+  transition: all 0.5s ease-in-out;
+}
+.instagram:hover stop:last-child {
+  stop-color: blue;
+  transition: all 0.5s ease-in-out;
+}
 
 .mailchimp {}
 
