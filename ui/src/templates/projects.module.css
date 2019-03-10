@@ -1,0 +1,19 @@
+@value variables: "../layouts/variables.css";
+@value gradientGrey, headerHeight from variables;
+
+.page, .page h1 h2 p {
+  color: white;
+  z-index: 0;
+  padding-top:40px;
+}
+
+.page>h1 {
+  position: absolute;
+  top: 160px;
+  left:0;
+  font-size: 80px;
+}
+
+.page {
+  background: linear-gradient(-135deg, #fff, #9c9c9c);
+}

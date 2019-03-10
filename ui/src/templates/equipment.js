@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 import Hero from '../components/Hero';
-import styles from './post.module.css';
+import Preview from '../components/Preview';
+import styles from './projects.module.css';
 
 
 export default ({ data }) => {
@@ -12,20 +13,9 @@ export default ({ data }) => {
 
     return (
         <Layout>
-            <Hero image={image}/>
-            <div className={styles.post}>
-                <h1>{title}</h1>
-                {
-                    data.equipment.edges.map(( equipment, index ) => {
-                        return (
-                            <Link to={equipment.node.fields.slug}>
-                                <article key={index}>
-                                    <h1>{equipment.node.frontmatter.title}</h1>
-                                </article>
-                            </Link>
-                        );
-                    })
-                }
+            <Hero image={image} title={title}/>
+            <div className={styles.page}>
+                <Preview projects={data.equipment.edges} />
             </div>
         </Layout>
     );
@@ -48,6 +38,8 @@ export const projectsQuery = graphql`
           }
           frontmatter {
             title
+            image
+            summary
           }
         }
       }
