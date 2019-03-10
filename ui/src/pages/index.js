@@ -10,6 +10,7 @@ import Telegram from '../components/social/Telegram';
 import Twitter from '../components/social/Twitter';
 import Youtube from '../components/social/Youtube';
 import Logo from '../../static/media/biopunkkitchen-noBg-centered.svg';
+import MeetupLarge from '../../static/media/Meetup_Large_white.svg';
 import styles from './index.module.css';
 
 
@@ -31,6 +32,7 @@ export default ({ data }) => {
                     <Twitter/>
                     <Youtube/>
                 </div>
+                <a href="https://www.meetup.com/BiopunX" target="_blank" className={styles.sticky}><img src={MeetupLarge}/></a>
 
             </section>
             <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>

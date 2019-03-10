@@ -49,3 +49,30 @@
   height: 100%;
   margin: 10px;
 }
+
+.sticky{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background: gradient;
+  background-size: gradientSize;
+  background-position: gradientPosition;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 45px 0;
+  display: inline-block;
+  position: fixed;
+  top: 400px;
+  right: 10px;
+  transform: rotate(-18deg);
+  transition: all 1s;
+}
+.sticky img {
+  width: 100px;
+}
+
+.sticky:hover{
+  background-position: 0% 0%;
+  transition: all 1s;
+}

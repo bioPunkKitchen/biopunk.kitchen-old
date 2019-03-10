@@ -1,6 +1,14 @@
 /* colors */
-@value active: #f00;
+@value active: #ff00cc;
 @value grey: #9c9c9c;
+@value gradient: linear-gradient(-45deg, #00ccff, #ff00cc, #ff6600, #0055d4);
+@value gradientSize: 200% 200%;
+@value gradientPosition: 100% 30%;
+@value gradientGrey: linear-gradient(-45deg, #c5c5c5, #9c9c9c);
+@value blue: #00ccff;
+@value pink: #ff00cc;
+@value orange: #ff6600;
+@value darkBlue: #0055d4;
 
 /*sizes*/
 @value maxContentWidth: 1200px;
