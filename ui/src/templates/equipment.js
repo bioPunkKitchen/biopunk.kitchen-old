@@ -9,13 +9,13 @@ import styles from './projects.module.css';
 export default ({ data }) => {
 
     const { title, image } = data.thisPage.frontmatter;
-
+    const colorBand = 'orange';
 
     return (
         <Layout>
-            <Hero image={image} title={title}/>
+            <Hero image={image} title={title} color={colorBand}/>
             <div className={styles.page}>
-                <Preview projects={data.equipment.edges} />
+                <Preview projects={data.equipment.edges} color={colorBand} />
             </div>
         </Layout>
     );

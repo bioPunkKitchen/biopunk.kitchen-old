@@ -1,4 +1,5 @@
 import React from 'react';
+import ColorBar from './ColorBar';
 import styles from './hero.module.css';
 
 const Hero = ( props ) => (
@@ -6,7 +7,7 @@ const Hero = ( props ) => (
         <div className={styles.hero} style={{ backgroundImage: `url(${props.image})` }}>
             {props.title && <h1>{props.title} </h1>}
         </div>
-        <div></div>
+        <ColorBar color={props.color}/>
     </div>
 );
 

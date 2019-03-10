@@ -19,8 +19,3 @@
   left: 0;
   font-size: 80px;
 }
-
-.hero ~ div {
-  background-color: #00ccff;
-  height: 10px;
-}
