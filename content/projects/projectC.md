@@ -2,9 +2,7 @@
 templateKey: post
 title: Project C
 image: /media/lab.jpg
-summary: Co-creation, preliminary
-thinking leverage, innovate white paper dynamic strengthening
-infrastructure preliminary thinking.
+summary: Co-creation, preliminary thinking leverage, innovate white paper dynamic strengthening infrastructure preliminary thinking.
 content:
   - col1: >-
       Keytar cred +1 four loko humblebrag. Skateboard meggings gastropub roof

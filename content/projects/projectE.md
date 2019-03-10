@@ -2,8 +2,7 @@
 templateKey: post
 title: Project E
 image: /media/microscopes.jpg
-summary: Gangway take a caulk log Jack Ketch mutiny scuppers gibbet Letter of
-Marque spirits maroon.
+summary: Gangway take a caulk log Jack Ketch mutiny scuppers gibbet Letter of Marque spirits maroon.
 content:
   - col1: >-
       Keytar cred +1 four loko humblebrag. Skateboard meggings gastropub roof
