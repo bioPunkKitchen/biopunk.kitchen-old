@@ -22,7 +22,7 @@
 }
 */
 .discourse path:nth-child(n+2){
-  fill: #bbb;
+  fill: #ddd;
   transition: all 0.5s ease-in-out;
 }
 .discourse:hover path:nth-child(n+2){
@@ -78,7 +78,7 @@
 }
 */
 .instagram path:last-child {
-  fill: #bbb;
+  fill: #ccc;
   transition: all 0.5s ease-in-out;
 }
 .instagram:hover path:last-child {
