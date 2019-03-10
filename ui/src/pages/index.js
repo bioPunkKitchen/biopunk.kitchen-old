@@ -9,6 +9,9 @@ import Mailchimp from '../components/social/Mailchimp';
 import Telegram from '../components/social/Telegram';
 import Twitter from '../components/social/Twitter';
 import Youtube from '../components/social/Youtube';
+import Discourse from '../components/social/Discourse';
+import Github from '../components/social/Github';
+import Meetup from '../components/social/Meetup';
 import Logo from '../../static/media/biopunkkitchen-noBg-centered.svg';
 import MeetupLarge from '../../static/media/Meetup_Large_white.svg';
 import styles from './index.module.css';
@@ -25,12 +28,8 @@ export default ({ data }) => {
                 <p>{tagline}</p>
                 <div className={styles.social}>
                     <Instagram/>
-                    <Email/>
                     <Facebook/>
-                    <Telegram/>
-                    <Mailchimp/>
-                    <Twitter/>
-                    <Youtube/>
+                    <Discourse/>
                 </div>
                 <a href="https://www.meetup.com/BiopunX" target="_blank" className={styles.sticky}><img src={MeetupLarge}/></a>
 

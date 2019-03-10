@@ -15,7 +15,7 @@
 @value padding: 20px;
 @value headerHeight: 74px;
 @value margin: 20px;
-@value iconSize: 28px;
+@value iconSize: 20px;
 
 /* breakpoints*/
 @value break-mobile: 420px;
