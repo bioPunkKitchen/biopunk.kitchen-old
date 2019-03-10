@@ -1,11 +1,10 @@
 @import "jost.css";
 @value variables: "./variables.css";
-@value grey from variables;
+@value active from variables;
 
 * {
   box-sizing: border-box;
   margin: 0;
-  color: grey;
 }
 
 /* base font styles */
@@ -16,6 +15,12 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
 a {
   text-decoration: none;
+  color: active;
 }
