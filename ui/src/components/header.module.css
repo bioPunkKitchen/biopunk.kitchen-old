@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value grey, headerHeight, padding from variables;
+@value gradientGrey, headerHeight, padding from variables;
 
 
 @value imageHeight: 500px;
@@ -10,7 +10,7 @@
   padding: padding;
   position: fixed;
   top:0;
-  background: linear-gradient(-45deg, #c5c5c5, #9c9c9c);
+  background: gradientGrey;
 }
 .homeHeader {
   composes: header;

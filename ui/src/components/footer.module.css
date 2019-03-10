@@ -1,11 +1,11 @@
 @value variables: "../layouts/variables.css";
-@value grey, padding from variables;
+@value gradientGrey, padding from variables;
 
 
 .footer {
-  background-color: grey;
+  background: gradientGrey;
   width: 100%;
-  height: 120px;
+  height: 60px;
   padding: padding;
 }
 

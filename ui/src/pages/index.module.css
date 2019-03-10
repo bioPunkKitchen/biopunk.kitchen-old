@@ -1,9 +1,8 @@
 @value variables: "../layouts/variables.css";
-@value iconSize from variables;
+@value iconSize, gradient, gradientSize, gradientPosition from variables;
 
 .topSection {
-  background: linear-gradient(65deg, #9c9c9c);
-  background: linear-gradient(-45deg, #fff, #9c9c9c);
+  background: linear-gradient(-45deg, #fff, #9c9c9c)
   margin: 0 auto;
   padding: 160px 20% 80px 20%;
   display: block;

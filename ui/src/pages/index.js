@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
-import Hero from '../components/Hero';
 import Instagram from '../components/social/Instagram';
 import Facebook from '../components/social/Facebook';
 import Email from '../components/social/Email';
