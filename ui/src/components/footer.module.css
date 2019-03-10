@@ -3,12 +3,23 @@
 
 
 .footer {
-  background: gradientGrey;
   width: 100%;
-  height: 60px;
-  padding: padding;
 }
 
 .footer a {
     color: white;
+}
+
+.footer > a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.footer div {
+  background: gradientGrey;
+  padding: padding;
 }
