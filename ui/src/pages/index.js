@@ -33,11 +33,14 @@ export default ({ data }) => {
                 <a href="https://www.meetup.com/BiopunX" target="_blank" className={styles.sticky}><img src={MeetupLarge}/></a>
 
             </section>
+            <div style={{ backgroundColor: '#ff6600', height: '10px' }}></div>
             <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
             </section>
+            <div style={{ backgroundColor: '#00ccff', height: '10px' }}></div>
             <section>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
             </section>
+            <div style={{ backgroundColor: '#ff00cc', height: '10px' }}></div>
         </Layout>
     );
 
