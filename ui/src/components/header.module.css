@@ -10,7 +10,7 @@
   padding: padding;
   position: fixed;
   top:0;
-  background: gradientGrey;
+  z-index: 100;
 }
 .homeHeader {
   composes: header;
