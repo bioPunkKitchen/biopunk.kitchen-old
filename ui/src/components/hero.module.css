@@ -2,7 +2,11 @@
 @value blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
 
 
-.hero{
+.hero {
+  position: relative;
+}
+
+.hero div:first-child {
   width: 100%;
   height: 400px;
   background-position: center;

@@ -11,7 +11,7 @@ const colors = {
 };
 
 const ColorBar = ( props ) => (
-    <div className={styles.colorBar} style={{ backgroundColor: `${colors[ props.color ]}` }} >
+    <div className={styles.colorBar} style={{ background: `linear-gradient(to bottom, transparent, ${colors[ props.color ]})` }} >
     </div>
 );
 
