@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value gradientGrey, headerHeight, padding from variables;
+@value headerHeight, padding from variables;
 
 
 @value imageHeight: 500px;
@@ -18,5 +18,6 @@
 }
 
 .logo {
-  width: 38px;
+  width: 60px;
+  margin-top: -14px;
 }
