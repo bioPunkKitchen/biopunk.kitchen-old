@@ -63,7 +63,7 @@ collections:
     slug: "{{slug}}"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "equipment"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "equip"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Equipment Summary", name: "summary", widget: "text"}

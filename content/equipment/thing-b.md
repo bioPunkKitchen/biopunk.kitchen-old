@@ -1,5 +1,5 @@
 ---
-templateKey: equipment
+templateKey: equip
 title: Thing B
 image: /media/candy.jpg
 summary: blabblue

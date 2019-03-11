@@ -1,5 +1,5 @@
 ---
-templateKey: post
+templateKey: project
 title: Project B
 image: /media/workbench.jpg
 summary: lorem ipsum 2

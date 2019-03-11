@@ -1,5 +1,5 @@
 ---
-templateKey: post
+templateKey: project
 title: Project C
 image: /media/lab.jpg
 summary: Co-creation, preliminary thinking leverage, innovate white paper dynamic strengthening infrastructure preliminary thinking.

@@ -1,5 +1,5 @@
 ---
-templateKey: post
+templateKey: project
 title: Project D
 image: /media/hex.jpg
 summary: Let's just drop a little Evergreen right here.

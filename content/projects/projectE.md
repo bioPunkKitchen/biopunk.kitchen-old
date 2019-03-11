@@ -1,5 +1,5 @@
 ---
-templateKey: post
+templateKey: project
 title: Project E
 image: /media/microscopes.jpg
 summary: Gangway take a caulk log Jack Ketch mutiny scuppers gibbet Letter of Marque spirits maroon.
