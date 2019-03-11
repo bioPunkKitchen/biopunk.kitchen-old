@@ -17,7 +17,17 @@ collections:
         fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Tagline", name: "tagline", widget: "string"}
-            - {label: "Hero Image", name: "image", widget: "image"}
+            - {label: "Sections", name: "sections", widget: "list", allow_add: false, fields: [
+                  {label: "Section Title", name: "title", widget: "string"},
+                  {label: "Color Band", name: "color", widget: "select", options: ["blue","darkBlue","orange","pink"], default: "pink"},
+                  {label: "Section Image", name: "image", widget: "image"},
+                  {label: "Section Text", name: "text", widget: "markdown"},
+                  {label: "Section Link", name: "link", widget: "object", fields: [
+                      {label: "Link Label", name: "label", widget: "string"},
+                      {label: "Link Url", name: "url", widget: "string", hint: "Use complete url, starting with http"},
+                      {label: "Style as Button", name: "button", widget: "boolean", default: false}
+                  ]}
+              ]}
       - file: "content/about.md"
         label: "About"
         name: "about"
