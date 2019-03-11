@@ -7,10 +7,22 @@
   padding: 160px 20% 80px 20%;
   display: block;
 }
-@media (max-width: 420px){
+@media (max-width: breakTablet){
   .topSection {
-      /*padding: 20vh 10% 5vh 10%;*/
+      padding: 160px contentPaddingTablet 80px contentPaddingTablet;
   }
+}
+@media (max-width: breakMobile){
+  .topSection {
+      padding: 160px contentPaddingMobile 80px contentPaddingMobile;
+  }
+}
+
+.topSection >img {
+  display: block;
+  width: 100%;
+  max-width: 690px;
+  margin: 0 auto 10px auto;
 }
 
 .topSection p {
