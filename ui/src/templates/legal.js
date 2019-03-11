@@ -1,22 +1,32 @@
 import React from 'react';
 import Layout from '../layouts/Layout';
-import styles from './legal.module.css';
+import Hero from '../components/Hero';
+import styles from './post.module.css';
 
 
-export default ({ data }) => (
-    <Layout>
-        <div className={styles.legal}>
-            <h1>{data.markdownRemark.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
-        </div>
-    </Layout>
-);
+export default ({ data }) => {
+
+    const { title, image } = data.markdownRemark.frontmatter;
+
+    return (
+        <Layout>
+            <Hero image={image} color="darkBlue"/>
+            <div className={styles.post}>
+                <h1>{title}</h1>
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+            </div>
+        </Layout>
+    );
+
+};
 
 export const legalQuery = graphql`
   query ($path: String!) {
     markdownRemark(fields: { slug: { eq: $path } }) {
+      html
       frontmatter {
         title
+        image
       }
       html
     }
