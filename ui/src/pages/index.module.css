@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value grey, pink, blue, gradientGrey, iconSize, gradient, gradientSize, gradientPosition from variables;
+@value grey, pink, blue, gradientGrey, iconSize, gradient, gradientSize, gradientPosition, contentPadding, breakMobile, breakTablet, contentPaddingMobile, contentPaddingTablet from variables;
 
 .topSection {
   background: linear-gradient(-45deg, #fff, #9c9c9c);
@@ -54,8 +54,22 @@
 .section p {
   max-width: 900px;
   min-width: 300px;
-  width: 70%;
+  width: 100%;
   margin: 40px auto;
+  padding: 0 contentPadding;
+  text-align: justify;
+}
+@media (max-width: breakTablet){
+  .section p {
+    padding: 0 contentPaddingTablet;
+    text-align: left;
+  }
+}
+@media (max-width: breakMobile){
+  .section p {
+    padding: 0 contentPaddingMobile;
+    text-align: left;
+  }
 }
 .section a {
   text-align: center;
