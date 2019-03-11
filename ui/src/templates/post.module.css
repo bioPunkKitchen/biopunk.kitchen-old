@@ -19,7 +19,9 @@
 }
 
 .post img {
-  width: 50%;
+  width: 36%;
+  display: block;
+  margin: 40px auto;
 }
 
 .post h2 {
