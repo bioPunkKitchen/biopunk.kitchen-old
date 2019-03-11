@@ -3,7 +3,7 @@ templateKey: legal
 title: Legal
 image: /media/hex.jpg
 ---
-## Impressum
+# Impressum
 
 Dieses Internetangebot wird veröffentlicht von Wissenschaftsladen Potsdam e.V.
 Friedrich-Engels-Straße 22 | Haus 1 freiLand Potsdam | D-14469 Potsdam.
@@ -44,7 +44,7 @@ Quellen
 e-Recht24.de [@@@ e-Recht24.de @@@]
 
 
-## Datenschutz & Datenschutzerklärung
+# Datenschutz & Datenschutzerklärung
 
 Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social-Media-Profil auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
 Verantwortliche

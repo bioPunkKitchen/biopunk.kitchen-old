@@ -24,7 +24,9 @@
   margin: 40px auto;
 }
 
-.post h2 {
+.post h1 {
+  font-size: 28px;
+  color: black;
   margin: calc(margin *2) 0;
 }
 
