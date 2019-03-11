@@ -10,9 +10,8 @@ export default ({ data }) => {
 
     return (
         <Layout>
-            <Hero image={image}/>
+            <Hero image={image} color= "blue" title={title}/>
             <div className={styles.post}>
-                <h1>{data.markdownRemark.frontmatter.title}</h1>
                 <img src={data.markdownRemark.frontmatter.image}/>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
             </div>
