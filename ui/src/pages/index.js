@@ -34,8 +34,7 @@ const Section = ( props ) => {
 
 export default ({ data }) => {
 
-    const { tagline, image, sectionList } = data.markdownRemark.frontmatter;
-    console.log( sectionList );
+    const { tagline, image, sections } = data.markdownRemark.frontmatter;
 
     return (
         <Layout type="home">
@@ -50,7 +49,7 @@ export default ({ data }) => {
                 <Sticky/>
             </section>
 
-            { sectionList.map(( section, index ) => (
+            { sections.map(( section, index ) => (
                 <Section
                     index={index}
                     title={section.title}
@@ -71,7 +70,7 @@ export const indeQuery = graphql`
       frontmatter {
         title
         tagline
-        sectionList {
+        sections {
           title
           image
           text
