@@ -3,16 +3,11 @@ import { graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 import Instagram from '../components/social/Instagram';
 import Facebook from '../components/social/Facebook';
-import Email from '../components/social/Email';
-import Mailchimp from '../components/social/Mailchimp';
-import Telegram from '../components/social/Telegram';
-import Twitter from '../components/social/Twitter';
-import Youtube from '../components/social/Youtube';
 import Discourse from '../components/social/Discourse';
-import Github from '../components/social/Github';
-import Meetup from '../components/social/Meetup';
 import Logo from '../../static/media/biopunkkitchen-noBg-centered.svg';
-import MeetupLarge from '../../static/media/Meetup_Large_white.svg';
+import Hero from '../components/Hero';
+import Sticky from '../components/Sticky';
+import Button from '../components/Button';
 import styles from './index.module.css';
 
 
@@ -30,17 +25,33 @@ export default ({ data }) => {
                     <Facebook/>
                     <Discourse/>
                 </div>
-                <a href="https://www.meetup.com/BiopunX" target="_blank" className={styles.sticky}><img src={MeetupLarge}/></a>
+                <Sticky/>
+            </section>
 
-            </section>
-            <div style={{ backgroundColor: '#ff6600', height: '10px' }}></div>
-            <section className={styles.hero} style={{ backgroundImage: `url(${image})` }}>
-            </section>
-            <div style={{ backgroundColor: '#00ccff', height: '10px' }}></div>
-            <section>
+            <section className={styles.section}>
+                <Hero image={image} title="kitchen" color='pink'/>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+                <Button label="Donate"/>
             </section>
-            <div style={{ backgroundColor: '#ff00cc', height: '10px' }}></div>
+
+            <section className={styles.section}>
+                <Hero image="/media/microscopes.jpg" title="equipment" color='blue'/>
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+                <a > All our equipment </a>
+            </section>
+
+            <section className={styles.section}>
+                <Hero image="/media/kitchen.jpg" title="Projects" color='orange'/>
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+                <a > All projects </a>
+            </section>
+
+            <section className={styles.section}>
+                <Hero image="/media/openingtalk.jpg" title="Community" color='darkBlue'/>
+                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
+                <Button label="Newsletter"/>
+            </section>
+
         </Layout>
     );
 

@@ -1,0 +1,28 @@
+@value variables: "../layouts/variables.css";
+@value orange, pink, blue, gradient, gradientSize, gradientPosition from variables;
+
+
+
+.button{
+  color: white;
+  background: linear-gradient(315deg, orange, pink, blue);
+  background-size: 200%;
+  background-position: 0;
+  font-weight: bold;
+  /* 4 color gradient
+  background: gradient;
+  background-size: gradientSize;
+  background-position: gradientPosition;
+  */
+  line-height: 1;
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+  margin: 20px auto;
+  transition: background 0.5s ease-in-out;
+}
+.button:hover{
+    /*background-position: 10%;*/
+      background-position: 100%;
+    transition: background 0.5s ease-in-out;
+}
