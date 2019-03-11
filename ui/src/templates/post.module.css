@@ -1,11 +1,11 @@
 @value variables: "../layouts/variables.css";
-@value headerHeight, contentPadding, contentPaddingTablet, contentPaddingMobile, maxContentWidth, breakTablet, breakMobile from variables;
+@value margin, headerHeight, contentPadding, contentPaddingTablet, contentPaddingMobile, maxContentWidth, breakTablet, breakMobile from variables;
 
 .post {
   margin: 0 auto;
   padding: 40px contentPadding 80px contentPadding;
+  background-color: white;
   max-width: maxContentWidth;
-
 }
 @media (max-width: breakTablet){
   .post {
@@ -20,4 +20,12 @@
 
 .post img {
   width: 50%;
+}
+
+.post h2 {
+  margin: calc(margin *2) 0;
+}
+
+.post p {
+  margin: margin 0;
 }
