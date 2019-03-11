@@ -17,7 +17,10 @@
 @value margin: 20px;
 @value iconSize: 20px;
 @value contentPadding: 120px;
+@value contentPaddingTablet: 80px;
+@value contentPaddingMobile: 40px;
 
 /* breakpoints*/
-@value break-mobile: 420px;
+@value breakMobile: 420px;
 @value breakTablet: 768px;
+@value breakColumns: 640px;

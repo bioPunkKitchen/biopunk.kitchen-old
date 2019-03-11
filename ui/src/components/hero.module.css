@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value padding, contentPadding, maxContentWidth, blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
+@value padding, contentPadding, contentPaddingTablet, breakTablet,breakColumns, maxContentWidth, blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
 
 
 .hero {
@@ -19,10 +19,21 @@
 
 .hero h1 {
   position: relative;
-  top: 150px;
+  top: 270px;
   left: 0;
   font-size: 80px;
-  padding: contentPadding;
+  padding: 0 contentPadding;
   max-width: maxContentWidth;
   margin: 0 auto;
+}
+
+@media (max-width: breakTablet) {
+  .hero h1 {
+    padding: 0 contentPaddingTablet;
+  }
+}
+@media (max-width: breakColumns){
+  .hero h1 {
+    text-align: center;
+  }
 }

@@ -1,9 +1,19 @@
 @value variables: "../layouts/variables.css";
-@value  contentPadding, padding, maxContentWidth, gradientGrey, headerHeight from variables;
+@value  contentPadding, contentPaddingTablet, breakTablet, contentPaddingMobile, breakMobile, padding, maxContentWidth, gradientGrey, headerHeight from variables;
 
 .page {
-  padding: contentPadding;
+  padding: 0 contentPadding;
   max-width: maxContentWidth;
   margin: 0 auto;
   padding-top: padding;
+}
+@media (max-width: breakTablet) {
+  .page {
+    padding: 0 contentPaddingTablet;
+  }
+}
+@media (max-width: breakMobile) {
+  .page {
+    padding: 0 contentPaddingMobile;
+  }
 }

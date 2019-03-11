@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value grey, blue, gradientGrey, darkBlue from variables;
+@value grey, blue, gradientGrey, darkBlue, breakColumns from variables;
 
 
 .preview {
@@ -9,6 +9,11 @@
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: breakColumns){
+  .preview {
+    justify-content: center;
+  }
+}
 
 .preview article {
   width: 42%;
@@ -17,6 +22,11 @@
   margin: 40px 0;
   padding: 0px;
   vertical-align: top;
+}
+@media (max-width: breakColumns){
+  .preview article {
+    width: 100%;
+  }
 }
 
 .preview article>div>div:first-child{
@@ -34,6 +44,7 @@
   font-size: 26px;
   padding: 10px;
   font-weight: bold;
+  text-align: left;
 }
 
 .preview p {
