@@ -6,6 +6,7 @@
   display: inline-block;
   float: right;
   z-index: auto;
+  cursor: pointer;
 }
 @media (min-width: breakTablet){
   .hamburgerWrapper{
@@ -29,6 +30,9 @@
   opacity: 1;
   transition: opacity 0.5s ease-out;
 }
+.overlayOpened nav {
+  display: block;
+}
 
 .overlayClosed{
   composes: overlay;
@@ -36,6 +40,9 @@
   height: 0;
   opacity: 0;
   transition: width 0s ease-out 0.5s, height 0s ease-out 0.5s, opacity 0.5s ease-out;
+}
+.overlayClosed nav {
+  display: none;
 }
 
 .hamburger {
