@@ -11,9 +11,31 @@ import Button from '../components/Button';
 import styles from './index.module.css';
 
 
+
+const Link = ( props ) => {
+    return (
+        props.button ? <Button label={props.label} url={props.url}/> : <a href={props.url}>{props.label}</a>
+    );
+};
+
+
+
+const Section = ( props ) => {
+    return ( <section className={styles.section} key={props.index}>
+        <Hero image={props.image} title={props.title} color={props.color}/>
+        <p>{props.text}</p>
+        { props.button && <Button label={props.link.label}/>}
+        { props.link && <Link button={props.link.button} label={props.link.label} url={props.link.url}/>}
+    </section>
+    );
+};
+
+
+
 export default ({ data }) => {
 
-    const { tagline, image } = data.markdownRemark.frontmatter;
+    const { tagline, image, sectionList } = data.markdownRemark.frontmatter;
+    console.log( sectionList );
 
     return (
         <Layout type="home">
@@ -28,29 +50,15 @@ export default ({ data }) => {
                 <Sticky/>
             </section>
 
-            <section className={styles.section}>
-                <Hero image={image} title="kitchen" color='pink'/>
-                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
-                <Button label="Donate"/>
-            </section>
-
-            <section className={styles.section}>
-                <Hero image="/media/microscopes.jpg" title="equipment" color='blue'/>
-                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
-                <a > All our equipment </a>
-            </section>
-
-            <section className={styles.section}>
-                <Hero image="/media/kitchen.jpg" title="Projects" color='orange'/>
-                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
-                <a > All projects </a>
-            </section>
-
-            <section className={styles.section}>
-                <Hero image="/media/openingtalk.jpg" title="Community" color='darkBlue'/>
-                <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
-                <Button label="Newsletter"/>
-            </section>
+            { sectionList.map(( section, index ) => (
+                <Section
+                    index={index}
+                    title={section.title}
+                    color={section.color}
+                    image={section.image}
+                    text={section.text}
+                    link={section.link}/>
+            ))}
 
         </Layout>
     );
@@ -63,7 +71,17 @@ export const indeQuery = graphql`
       frontmatter {
         title
         tagline
-        image
+        sectionList {
+          title
+          image
+          text
+          link {
+            label
+            url
+            button
+          }
+          color
+        }
       }
       html
     }

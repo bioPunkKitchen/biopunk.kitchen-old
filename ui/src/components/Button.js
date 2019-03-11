@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './button.module.css';
 
 const Button = ( props ) => (
-    <div className={styles.button}> {props.label} </div>
+    <a href={props.url} className={styles.button}> {props.label} </a>
 );
 
 export default Button;
