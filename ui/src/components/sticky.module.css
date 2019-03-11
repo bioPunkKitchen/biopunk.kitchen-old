@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value blue, gradient, gradientSize, gradientPosition from variables;
+@value blue, gradient, gradientSize, gradientPosition, breakMobile from variables;
 
 
 .sticky{
@@ -28,4 +28,17 @@
 .sticky:hover{
   background-position: 0% 0%;
   transition: all 1s;
+}
+
+@media (max-width: breakMobile){
+  .sticky {
+    width: 90px;
+    height: 90px;
+    padding: 34px 0;
+    top: unset;
+    bottom: 10px;
+  }
+  .sticky img {
+    width: 70px;
+  }
 }
