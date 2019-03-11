@@ -34,7 +34,7 @@ const Section = ( props ) => {
 
 export default ({ data }) => {
 
-    const { tagline, image, sections } = data.markdownRemark.frontmatter;
+    const { tagline, sections } = data.markdownRemark.frontmatter;
 
     return (
         <Layout type="home">
