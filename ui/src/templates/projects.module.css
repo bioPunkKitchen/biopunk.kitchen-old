@@ -6,6 +6,7 @@
   max-width: maxContentWidth;
   margin: 0 auto;
   padding-top: padding;
+  padding-bottom: 60px;
 }
 @media (max-width: breakTablet) {
   .page {
