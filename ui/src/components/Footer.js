@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Map from '../../static/media/map2.png';
+import Map from '../../static/media/map3.png';
 import styles from './footer.module.css';
 
 const Footer = () => (
