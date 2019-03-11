@@ -71,7 +71,7 @@ collections:
   - name: "projects"
     label: "Projects"
     folder: "content/projects"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    slug: "{slug}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
