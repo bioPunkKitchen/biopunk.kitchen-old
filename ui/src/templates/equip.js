@@ -12,7 +12,6 @@ export default ({ data }) => {
         <Layout>
             <Hero image={image} color= "blue" title={title}/>
             <div className={styles.post}>
-                <img src={data.markdownRemark.frontmatter.image}/>
                 <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
             </div>
         </Layout>
