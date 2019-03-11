@@ -1,6 +1,9 @@
 @value variables: "../layouts/variables.css";
-@value gradientGrey, headerHeight from variables;
+@value  contentPadding, padding, maxContentWidth, gradientGrey, headerHeight from variables;
 
 .page {
-  background: linear-gradient(-135deg, #fff, #9c9c9c);
+  padding: contentPadding;
+  max-width: maxContentWidth;
+  margin: 0 auto;
+  padding-top: padding;
 }

@@ -11,11 +11,12 @@
 @value darkBlue: #0055d4;
 
 /*sizes*/
-@value maxContentWidth: 1200px;
-@value padding: 20px;
+@value maxContentWidth: 1600px;
+@value padding: 40px;
 @value headerHeight: 74px;
 @value margin: 20px;
 @value iconSize: 20px;
+@value contentPadding: 120px;
 
 /* breakpoints*/
 @value break-mobile: 420px;

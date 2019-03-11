@@ -1,2 +1,6 @@
 @value variables: "../layouts/variables.css";
 @value maxContentWidth, padding from variables;
+
+.main {
+    background: linear-gradient(-135deg, #fff, #9c9c9c);
+}

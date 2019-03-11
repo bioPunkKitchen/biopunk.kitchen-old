@@ -1,5 +1,5 @@
 @value variables: "../layouts/variables.css";
-@value blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
+@value padding, contentPadding, maxContentWidth, blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
 
 
 .hero {
@@ -18,8 +18,11 @@
 }
 
 .hero h1 {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 150px;
   left: 0;
   font-size: 80px;
+  padding: contentPadding;
+  max-width: maxContentWidth;
+  margin: 0 auto;
 }

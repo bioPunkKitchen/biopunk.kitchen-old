@@ -38,9 +38,18 @@
   margin: 10px;
 }
 
+.section {
+  background-color: white;
+  padding-bottom: 40px;
+}
 .section h1 {
+  position: absolute;
+  top: unset;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
+  padding: 0;
 }
 .section p {
   max-width: 900px;
@@ -55,12 +64,4 @@
 }
 .section>div>div:first-child {
   height: 80vh;
-}
-
-
-
-
-
-.section h1 {
-  text-align: center;
 }
