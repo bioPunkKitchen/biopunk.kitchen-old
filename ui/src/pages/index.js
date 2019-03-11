@@ -42,9 +42,9 @@ export default ({ data }) => {
                 <img src={Logo} />
                 <p>{tagline}</p>
                 <div className={styles.social}>
-                    <Instagram/>
-                    <Facebook/>
-                    <Discourse/>
+                    <a href="https://www.instagram.com/biopunx" target="_blank"><Instagram/></a>
+                    <a href="https://www.facebook.com/biopunx" target="_blank"><Facebook/></a>
+                    <a href="https://forum.wilap.de/c/kitchen" target="_blank"><Discourse/></a>
                 </div>
                 <Sticky/>
             </section>
