@@ -54,15 +54,7 @@
   background-color: white;
   padding-bottom: 40px;
 }
-.section h1 {
-  position: absolute;
-  top: unset;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  padding: 0;
-}
+
 .section p {
   max-width: 900px;
   min-width: 300px;
@@ -87,7 +79,4 @@
   text-align: center;
   display: block;
   margin: 20px auto;
-}
-.section>div>div:first-child {
-  height: 80vh;
 }

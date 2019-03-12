@@ -2,47 +2,90 @@
 @value padding, contentPadding, contentPaddingTablet, breakTablet, contentPaddingMobile, breakMobile, breakColumns, maxContentWidth, blue, grey,gradient, gradientSize, gradientPosition, padding from variables;
 
 
+
+
+
 .hero {
   position: relative;
 }
 
-.hero div:first-child {
+.heroImage {
   width: 100%;
-  height: 400px;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   background-color: rgba(225, 0, 204, 0.1);
   background-blend-mode: multiply;
   position: relative;
 }
 
-.hero h1 {
-  position: relative;
-  top: 270px;
-  left: 0;
+.homeHeroImage {
+  composes: heroImage;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.pageHeroImage {
+  composes: heroImage;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.previewHeroImage{
+  composes: heroImage;
+  background-attachment: scroll;
+  height: 0;
+  padding-top: 60%;
+}
+
+.heroTitle {
   font-size: 80px;
-  padding: 0 contentPadding;
-  max-width: maxContentWidth;
   margin: 0 auto;
 }
 
 @media (max-width: breakTablet) {
-  .hero h1 {
+  .heroTitle {
     top: 300px;
     font-size: 60px;
     padding: 0 contentPaddingTablet;
   }
 }
 @media (max-width: breakMobile) {
-  .hero h1 {
+  .heroTitle{
     top: 320px;
     font-size: 44px;
     padding: 0 contentPaddingMobile;
   }
 }
 @media (max-width: breakColumns){
-  .hero h1 {
+  .heroTitle {
     text-align: center;
   }
+}
+
+.homeHeroTitle {
+  composes: heroTitle;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+}
+
+.pageHeroTitle {
+  composes: heroTitle;
+  position: relative;
+  top: 270px;
+  left: 0;
+  padding: 0 contentPadding;
+  max-width: maxContentWidth;
+}
+
+.previewHeroTitle {
+  composes: heroTitle;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 26px;
+  padding: 10px;
+  font-weight: bold;
 }
