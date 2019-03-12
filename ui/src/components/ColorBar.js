@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import Map from '../../static/media/map.png';
 import styles from './colorBar.module.css';
 
 const colors = {
