@@ -39,19 +39,17 @@
 
 .heroTitle {
   font-size: 80px;
-  margin: 0 auto;
+  padding: 0 contentPadding;
 }
 
 @media (max-width: breakTablet) {
   .heroTitle {
-    top: 300px;
     font-size: 60px;
     padding: 0 contentPaddingTablet;
   }
 }
 @media (max-width: breakMobile) {
-  .heroTitle{
-    top: 320px;
+  .heroTitle {
     font-size: 44px;
     padding: 0 contentPaddingMobile;
   }
@@ -75,9 +73,16 @@
   composes: heroTitle;
   position: relative;
   top: 270px;
-  left: 0;
-  padding: 0 contentPadding;
-  max-width: maxContentWidth;
+}
+@media (max-width: breakTablet) {
+  .pageHeroTitle {
+    top: 300px;
+  }
+}
+@media (max-width: breakMobile) {
+  .pageHeroTitle {
+    top: 320px;
+  }
 }
 
 .previewHeroTitle {
