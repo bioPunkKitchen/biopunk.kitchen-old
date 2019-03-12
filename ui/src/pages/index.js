@@ -22,7 +22,7 @@ const Link = ( props ) => {
 
 const Section = ( props ) => {
     return ( <section className={styles.section} key={props.index}>
-        <Hero image={props.image} title={props.title} color={props.color}/>
+        <Hero image={props.image} title={props.title} color={props.color} style="home"/>
         <p>{props.text}</p>
         { props.button && <Button label={props.link.label}/>}
         { props.link && <Link button={props.link.button} label={props.link.label} url={props.link.url}/>}

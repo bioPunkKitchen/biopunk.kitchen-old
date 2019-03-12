@@ -10,7 +10,7 @@ const Preview = ( props ) => (
             props.projects.map(( project, index ) =>
                 <article key={index}>
                     <Link to={project.node.fields.slug}>
-                        <Hero image={project.node.frontmatter.image} title={project.node.frontmatter.title} color={props.color} />
+                        <Hero image={project.node.frontmatter.image} title={project.node.frontmatter.title} color={props.color} style="preview"/>
                     </Link>
                     <div></div>
                     <p>{project.node.frontmatter.summary}</p>
