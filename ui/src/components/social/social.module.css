@@ -58,20 +58,19 @@
 
 .email {}
 
-.facebook stop:first-child, .facebook stop:last-child {
+.facebook stop:first-child, .github stop:last-child, .github stop:first-child, .facebook stop:last-child {
   stop-color: #fff;
   transition: all 0.5s ease-in-out;
 }
-.facebook:hover stop:first-child{
+.facebook:hover stop:first-child, .github:hover stop:first-child{
   stop-color: pink;
   transition: all 0.5s ease-in-out;
 }
-.facebook:hover stop:last-child{
+.facebook:hover stop:last-child, .github:hover stop:last-child{
   stop-color: blue;
   transition: all 0.5s ease-in-out;
 }
 
-.github {}
 /*
 .instagram path:first-child, .instagram path:nth-child(2) {
   fill: #fff;
