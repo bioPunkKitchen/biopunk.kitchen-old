@@ -1,5 +1,21 @@
 **to start**
-- needs npm install on top level and inside ui directory
+- needs [npm](https://www.npmjs.com/get-npm) install on top level
+    ```
+    npm install
+    ```
+- inside ui directory
+    ```
+    cd ui
+    npm install
+    ```
+- install [gatsby](https://www.gatsbyjs.org/docs/)
+    ```
+    npm install -g gatsby-cli
+    ```
+- run the development version
+    ```
+    gatsby develop
+    ```
 
 **don't forget to**
 - adjust repo in cms' config.yml
