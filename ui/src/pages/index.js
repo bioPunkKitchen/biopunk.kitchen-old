@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../layouts/Layout';
 import Instagram from '../components/social/Instagram';
 import Facebook from '../components/social/Facebook';
+import Github from '../components/social/Github';
 import Discourse from '../components/social/Discourse';
 import Logo from '../../static/media/biopunkkitchen-noBg-centered.svg';
 import Hero from '../components/Hero';
@@ -45,6 +46,7 @@ export default ({ data }) => {
                     <a href="https://www.instagram.com/biopunx" target="_blank"><Instagram/></a>
                     <a href="https://www.facebook.com/biopunx" target="_blank"><Facebook/></a>
                     <a href="https://forum.wilap.de/c/kitchen" target="_blank"><Discourse/></a>
+                    <a href="https://github.com/bioPunkKitchen" target="_blank"><Github/></a>
                 </div>
                 <Sticky/>
             </section>
